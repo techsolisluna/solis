@@ -1,5 +1,8 @@
 {
   "current": {
+    "social_facebook_link": "https:\/\/facebook.com\/solislunaeditora",
+    "social_instagram_link": "http:\/\/instagram.com\/solislunaeditora",
+    "social_youtube_link": "https:\/\/www.youtube.com\/solisluna",
     "currency_code_enabled": false,
     "sections": {
       "announcement-bar": {
@@ -33,8 +36,8 @@
       "header": {
         "type": "header",
         "settings": {
-          "logo": "shopify:\/\/shop_images\/LogoSolisluna_small_a23331c9-5e27-4975-8cea-4b2441ddc8f1.jpg",
-          "logo_width": 170,
+          "logo": "shopify:\/\/shop_images\/logo_solisluna.png",
+          "logo_width": 220,
           "logo_position": "middle-left",
           "menu": "main-menu",
           "show_line_separator": true,
