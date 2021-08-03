@@ -57,10 +57,10 @@
         "ac5d2265-3446-44b4-9455-7d569c8114a4": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Collapsible tab",
-            "content": "",
+            "heading": "Informações técnicas",
+            "content": "<p>{{ product.metafields.infotecnica.dados | metafield_tag }}<\/p>",
             "page": "",
-            "icon": "check_mark"
+            "icon": "chat_bubble"
           }
         }
       },
