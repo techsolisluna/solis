@@ -41,7 +41,7 @@
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
-            "show_dynamic_checkout": true
+            "show_dynamic_checkout": false
           }
         },
         "description": {
@@ -52,6 +52,15 @@
         "share": {
           "type": "share",
           "settings": {
+          }
+        },
+        "ac5d2265-3446-44b4-9455-7d569c8114a4": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Collapsible tab",
+            "content": "",
+            "page": "",
+            "icon": "check_mark"
           }
         }
       },
@@ -64,7 +73,8 @@
         "quantity_selector",
         "buy_buttons",
         "description",
-        "share"
+        "share",
+        "ac5d2265-3446-44b4-9455-7d569c8114a4"
       ],
       "settings": {
         "enable_sticky_info": true,
