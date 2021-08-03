@@ -9,6 +9,12 @@
             "heading": "Talk about your brand"
           }
         },
+        "289448ac-fc69-4fb2-8956-da26c78d51f7": {
+          "type": "text",
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template."
+          }
+        },
         "button": {
           "type": "buttons",
           "settings": {
@@ -19,21 +25,16 @@
             "button_link_2": "",
             "button_style_secondary_2": false
           }
-        },
-        "289448ac-fc69-4fb2-8956-da26c78d51f7": {
-          "type": "text",
-          "settings": {
-            "text": "Give customers details about the banner image(s) or content on the template."
-          }
         }
       },
       "block_order": [
         "heading",
-        "button",
-        "289448ac-fc69-4fb2-8956-da26c78d51f7"
+        "289448ac-fc69-4fb2-8956-da26c78d51f7",
+        "button"
       ],
       "settings": {
-        "desktop_text_box_position": "flex-end",
+        "image_2": "shopify:\/\/shop_images\/Stand_virtual_textura.png",
+        "desktop_text_box_position": "center",
         "color_scheme": "background-1",
         "stack_images_on_mobile": true,
         "adapt_height_first_image": false
