@@ -12,7 +12,6 @@
         },
         "title": {
           "type": "title",
-          "disabled": true,
           "settings": {
           }
         },
