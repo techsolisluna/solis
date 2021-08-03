@@ -11,24 +11,14 @@
           "announcement-bar-0": {
             "type": "announcement",
             "settings": {
-              "text": "Welcome to our store",
-              "color_scheme": "accent-1",
-              "link": ""
-            }
-          },
-          "fa580c06-7836-4c52-9038-730481ba4d06": {
-            "type": "announcement",
-            "disabled": true,
-            "settings": {
-              "text": "Welcome to our store",
-              "color_scheme": "accent-1",
+              "text": "Boas-vindas ao novo site da Solisluna!",
+              "color_scheme": "accent-2",
               "link": ""
             }
           }
         },
         "block_order": [
-          "announcement-bar-0",
-          "fa580c06-7836-4c52-9038-730481ba4d06"
+          "announcement-bar-0"
         ],
         "settings": {
         }
