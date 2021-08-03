@@ -29,6 +29,7 @@
         },
         "variant_picker": {
           "type": "variant_picker",
+          "disabled": true,
           "settings": {
             "picker_type": "button"
           }
@@ -60,7 +61,7 @@
             "heading": "Informações técnicas",
             "content": "<p>{{ product.metafields.infotecnica.dados | metafield_tag }}<\/p>",
             "page": "",
-            "icon": "chat_bubble"
+            "icon": "ruler"
           }
         }
       },
