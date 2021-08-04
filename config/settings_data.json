@@ -1,1 +1,76 @@
-{}
+{
+  "current": {
+    "colors_accent_1": "#e03f03",
+    "colors_accent_2": "#0752a9",
+    "social_facebook_link": "https:\/\/facebook.com\/solislunaeditora",
+    "social_instagram_link": "http:\/\/instagram.com\/solislunaeditora",
+    "social_youtube_link": "https:\/\/www.youtube.com\/solisluna",
+    "currency_code_enabled": false,
+    "sections": {
+      "announcement-bar": {
+        "type": "announcement-bar",
+        "blocks": {
+          "announcement-bar-0": {
+            "type": "announcement",
+            "settings": {
+              "text": "Boas-vindas ao novo site da Solisluna!",
+              "color_scheme": "accent-2",
+              "link": ""
+            }
+          }
+        },
+        "block_order": [
+          "announcement-bar-0"
+        ],
+        "settings": {
+        }
+      },
+      "header": {
+        "type": "header",
+        "settings": {
+          "logo": "shopify:\/\/shop_images\/logo_solisluna.png",
+          "logo_width": 220,
+          "logo_position": "middle-left",
+          "menu": "main-menu",
+          "show_line_separator": true,
+          "enable_sticky_header": true
+        }
+      },
+      "footer": {
+        "type": "footer",
+        "blocks": {
+          "footer-0": {
+            "type": "link_list",
+            "settings": {
+              "heading": "Links",
+              "menu": "footer"
+            }
+          },
+          "66552480-069f-4f4e-b399-0346dd6b89a8": {
+            "type": "text",
+            "settings": {
+              "heading": "Heading",
+              "subtext": "<p>Share store details, promotions, or brand content with your customers.<\/p>"
+            }
+          }
+        },
+        "block_order": [
+          "footer-0",
+          "66552480-069f-4f4e-b399-0346dd6b89a8"
+        ],
+        "settings": {
+          "color_scheme": "background-1",
+          "newsletter_enable": true,
+          "newsletter_heading": "Sign up to our emails",
+          "show_social": false,
+          "enable_country_selector": true,
+          "enable_language_selector": true,
+          "payment_enable": true
+        }
+      }
+    },
+    "content_for_index": [
+
+    ]
+  }
+}

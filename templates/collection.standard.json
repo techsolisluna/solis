@@ -1,0 +1,35 @@
+{
+  "sections": {
+    "1628041562b1dac090": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<img src=\"{{collection.image | img_url: '1080x' }}\"alt=\" {{collection.title}}\" \/>"
+      }
+    },
+    "banner": {
+      "type": "main-collection-banner",
+      "settings": {
+        "show_collection_description": true,
+        "show_collection_image": true
+      }
+    },
+    "product-grid": {
+      "type": "main-collection-product-grid",
+      "settings": {
+        "products_per_page": 16,
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "add_image_padding": false,
+        "show_image_outline": true,
+        "show_vendor": false,
+        "enable_filtering": false,
+        "enable_sorting": false
+      }
+    }
+  },
+  "order": [
+    "1628041562b1dac090",
+    "banner",
+    "product-grid"
+  ]
+}
