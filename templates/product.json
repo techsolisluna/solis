@@ -11,7 +11,7 @@
         "d7b84718-060b-4245-baa8-998317257985": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<hr>\n<a href=\"\">{{ product.vendor }}<\/a><br\/>\n{% if product.metafields.autor.ilustrador != \"\" %}\n<i>Ilustrações:<\/i> <a href=\"\">{{ product.metafields.autor.ilustrador }}<\/a>\n{% endif %}\n<hr>"
+            "custom_liquid": "<hr>\n<a href=\"\">{{ product.vendor }}<\/a><br\/>\n{% if product.metafields.autor.ilustrador %}\n<i>Ilustrações:<\/i> <a href=\"\">{{ product.metafields.autor.ilustrador }}<\/a>\n{% endif %}\n<hr>"
           }
         },
         "subtitle": {
