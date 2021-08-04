@@ -1,5 +1,11 @@
 {
   "sections": {
+    "1628041562b1dac090": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<img src=\"{{collection.image | img_url: '1080x' }}\"alt=\" {{collection.title}}\" \/>"
+      }
+    },
     "banner": {
       "type": "main-collection-banner",
       "settings": {
@@ -22,6 +28,7 @@
     }
   },
   "order": [
+    "1628041562b1dac090",
     "banner",
     "product-grid"
   ]
