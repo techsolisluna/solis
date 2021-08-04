@@ -164,13 +164,14 @@
       }
     },
     "author-product": {
-      "type": "author_product"
+      "type": "author-product"
     }
   },
   "order": [
     "main",
     "1628042073aa1ead15",
     "1628030198727085bf",
-    "product-recommendations"
+    "product-recommendations",
+    "author-product"
   ]
 }
