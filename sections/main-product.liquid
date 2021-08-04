@@ -6,23 +6,6 @@
 {{ 'component-rte.css' | asset_url | stylesheet_tag }}
 {{ 'component-slider.css' | asset_url | stylesheet_tag }}
 
-{% if product.vendor contains ' e ' %}
-  {% assign authors = product.vendor | split: ' e ' %} 
-  {% assign author = authors[0] %}
-  {% assign coauthor = authors[1] %}
-{% else %}
-  {% assign author = product.vendor %}
-{% endif %}
-
-{% assign illustrator = product.metafields.autor.ilustrador %}
-{% assign editor = product.metafields.colaborador.editor %}
-{% assign inspired = product.metafields.infotecnica.inspirado %}
-
-{% assign authorurl = author | handleize %}
-{% assign coauthorurl = coauthor | handleize %}
-{% assign illustratorurl = illustrator | handleize %}
-{% assign inspiredourl = inspired | handleize %}
-{% assign dados = product.metafields.infotecnica.dados %}
 
 <link rel="stylesheet" href="{{ 'component-cart-notification.css' | asset_url }}" media="print" onload="this.media='all'">
 <link rel="stylesheet" href="{{ 'component-deferred-media.css' | asset_url }}" media="print" onload="this.media='all'">
