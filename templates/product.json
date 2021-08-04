@@ -10,6 +10,7 @@
         },
         "d7b84718-060b-4245-baa8-998317257985": {
           "type": "custom_liquid",
+          "disabled": true,
           "settings": {
             "custom_liquid": "<hr>\n<a href=\"\">{{ product.vendor }}<\/a><br\/>\n{% if product.metafields.autor.ilustrador %}\n<i>Ilustrações:<\/i> <a href=\"\">{{ product.metafields.autor.ilustrador }}<\/a>\n{% endif %}\n<hr>"
           }
@@ -24,7 +25,6 @@
         },
         "b1578458-d656-46d8-bcc8-1d4b3e5d88a0": {
           "type": "collapsible_tab",
-          "disabled": true,
           "settings": {
             "heading": "{{ product.vendor }}",
             "content": "",
@@ -66,7 +66,7 @@
           "type": "collapsible_tab",
           "settings": {
             "heading": "Informações técnicas",
-            "content": "<p>{{ product.metafields.infotecnica.dados | metafield_tag }}<\/p>",
+            "content": "<p>{{ product.metafields.infotecnica.dados | metafield_tag }}<\/p><p>{{ product.vendor }}<\/p><p><\/p>",
             "page": "",
             "icon": "ruler"
           }
@@ -101,16 +101,6 @@
         "enable_video_looping": false
       }
     },
-    "1628030198727085bf": {
-      "type": "video",
-      "disabled": true,
-      "settings": {
-        "heading": "Assista ao vídeo sobre o livro {{ product.title }} - {{ product.metafields.descriptors.subtitle.value }}",
-        "video_url": "",
-        "description": "",
-        "full_width": true
-      }
-    },
     "1628042073aa1ead15": {
       "type": "multicolumn",
       "blocks": {
@@ -142,7 +132,7 @@
         "1628042073aa1ead15-2"
       ],
       "settings": {
-        "title": "",
+        "title": "Atributo Fixo",
         "image_width": "full",
         "image_ratio": "adapt",
         "column_alignment": "center",
@@ -150,6 +140,16 @@
         "button_label": "",
         "button_link": "",
         "swipe_on_mobile": false
+      }
+    },
+    "1628030198727085bf": {
+      "type": "video",
+      "disabled": true,
+      "settings": {
+        "heading": "Assista ao vídeo sobre o livro {{ product.title }} - {{ product.metafields.descriptors.subtitle.value }}",
+        "video_url": "",
+        "description": "",
+        "full_width": true
       }
     },
     "product-recommendations": {
@@ -166,8 +166,8 @@
   },
   "order": [
     "main",
-    "1628030198727085bf",
     "1628042073aa1ead15",
+    "1628030198727085bf",
     "product-recommendations"
   ]
 }
