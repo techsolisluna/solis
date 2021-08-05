@@ -3,6 +3,13 @@
     "main": {
       "type": "main-product",
       "blocks": {
+        "1036ce00-b38d-4124-8b98-b86c99667a9b": {
+          "type": "text",
+          "settings": {
+            "text": "ISBN {{ product.metafields.facts.isbn.value }}",
+            "text_style": "uppercase"
+          }
+        },
         "title": {
           "type": "title",
           "settings": {
@@ -52,6 +59,15 @@
             "show_dynamic_checkout": false
           }
         },
+        "0b3e0b4b-becc-4237-9581-c5950347cb34": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Saiba em primeira mão quando chegar uma nova edição! :)",
+            "content": "",
+            "page": "",
+            "icon": "heart"
+          }
+        },
         "description": {
           "type": "description",
           "settings": {
@@ -70,16 +86,10 @@
           "type": "share",
           "settings": {
           }
-        },
-        "1036ce00-b38d-4124-8b98-b86c99667a9b": {
-          "type": "text",
-          "settings": {
-            "text": "{{ product.metafields.facts.isbn.value }}",
-            "text_style": "subtitle"
-          }
         }
       },
       "block_order": [
+        "1036ce00-b38d-4124-8b98-b86c99667a9b",
         "title",
         "d7b84718-060b-4245-baa8-998317257985",
         "subtitle",
@@ -87,10 +97,10 @@
         "vendor",
         "price",
         "buy_buttons",
+        "0b3e0b4b-becc-4237-9581-c5950347cb34",
         "description",
         "ac5d2265-3446-44b4-9455-7d569c8114a4",
-        "share",
-        "1036ce00-b38d-4124-8b98-b86c99667a9b"
+        "share"
       ],
       "settings": {
         "enable_sticky_info": true,

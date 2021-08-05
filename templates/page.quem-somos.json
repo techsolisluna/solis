@@ -4,9 +4,111 @@
       "type": "main-page",
       "settings": {
       }
+    },
+    "162813548051793e0b": {
+      "type": "multicolumn",
+      "blocks": {
+        "162813548051793e0b-0": {
+          "type": "column",
+          "settings": {
+            "title": "Enéas Guerra",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
+          }
+        },
+        "162813548051793e0b-1": {
+          "type": "column",
+          "settings": {
+            "title": "Valéria Pergentino",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
+          }
+        },
+        "162813548051793e0b-2": {
+          "type": "column",
+          "disabled": true,
+          "settings": {
+            "title": "Kin Guerra",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
+          }
+        },
+        "37bcbe5b-7f41-4053-905d-b79b071b4a7d": {
+          "type": "column",
+          "disabled": true,
+          "settings": {
+            "title": "Elaine Quirelli",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
+          }
+        },
+        "e1ca42ba-6c8a-49af-a9d0-5ec52a550388": {
+          "type": "column",
+          "disabled": true,
+          "settings": {
+            "title": "Vinicius Maciel",
+            "text": "<p>Estagiário de TI<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "162813548051793e0b-0",
+        "162813548051793e0b-1",
+        "162813548051793e0b-2",
+        "37bcbe5b-7f41-4053-905d-b79b071b4a7d",
+        "e1ca42ba-6c8a-49af-a9d0-5ec52a550388"
+      ],
+      "settings": {
+        "title": "Equipe Solislúnica :)",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "column_alignment": "left",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "swipe_on_mobile": false
+      }
+    },
+    "1628135504a3515bde": {
+      "type": "image-banner",
+      "blocks": {
+        "1628135504a3515bde-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Belos livros & boas histórias"
+          }
+        },
+        "1628135504a3515bde-1": {
+          "type": "text",
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template."
+          }
+        },
+        "1628135504a3515bde-2": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "1628135504a3515bde-0",
+        "1628135504a3515bde-1",
+        "1628135504a3515bde-2"
+      ],
+      "settings": {
+        "image_2": "shopify:\/\/shop_images\/Stand_virtual_textura.png",
+        "desktop_text_box_position": "center",
+        "color_scheme": "accent-2",
+        "stack_images_on_mobile": true,
+        "adapt_height_first_image": false
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "162813548051793e0b",
+    "1628135504a3515bde"
   ]
 }
