@@ -106,6 +106,37 @@
         "swipe_on_mobile": true
       }
     },
+    "16281298397ca9bc38": {
+      "type": "newsletter",
+      "blocks": {
+        "16281298397ca9bc38-1": {
+          "type": "paragraph",
+          "settings": {
+            "paragraph": ""
+          }
+        },
+        "16281298397ca9bc38-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Inscreva-se em nossos emails"
+          }
+        },
+        "16281298397ca9bc38-2": {
+          "type": "email_form",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "16281298397ca9bc38-1",
+        "16281298397ca9bc38-0",
+        "16281298397ca9bc38-2"
+      ],
+      "settings": {
+        "color_scheme": "inverse",
+        "full_width": true
+      }
+    },
     "162812937256217f29": {
       "type": "featured-collection",
       "settings": {
@@ -120,12 +151,49 @@
         "show_image_outline": true,
         "show_vendor": false
       }
+    },
+    "1628129883dbcebdfc": {
+      "type": "image-with-text",
+      "blocks": {
+        "1628129883dbcebdfc-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "ebook gratuito"
+          }
+        },
+        "1628129883dbcebdfc-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Reúne textos de 24 jovens estudantes que participaram do concurso Quem eu sou no mundo, promovido pela Festa Viva Livro em março de 2021<\/p>"
+          }
+        },
+        "1628129883dbcebdfc-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Saiba mais",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "1628129883dbcebdfc-0",
+        "1628129883dbcebdfc-1",
+        "1628129883dbcebdfc-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/QuemEuSouNoMundo.png",
+        "height": "adapt",
+        "color_scheme": "background-1",
+        "layout": "image_first"
+      }
     }
   },
   "order": [
     "image_banner",
     "featured_products",
     "16280285318dc3fdd4",
-    "162812937256217f29"
+    "16281298397ca9bc38",
+    "162812937256217f29",
+    "1628129883dbcebdfc"
   ]
 }
