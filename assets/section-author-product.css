@@ -5,3 +5,9 @@
 .picture-author-on-product{
     border-radius: 15px;
 }
+
+@media screen and (min-width: 990px) {
+    .padding1{
+        padding: 5rem 20rem;
+    }
+}
