@@ -1,3 +1,7 @@
-.grid__item a{
+.author-link{
     text-decoration: none;
+}
+
+.picture-author-on-product{
+    border-radius: 15px;
 }
