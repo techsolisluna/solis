@@ -29,25 +29,31 @@
       {% if collection.title == author %}
 
 
-      <div class="grid grid__item small--one-whole medium-up-one-whole author-on-product">
-        <div class="small--one-whole medium-up--one-third grid__item">
+      <div class="grid">
+        <div class="">
            <img class="picture-author-on-product" src="{{ collection.image | img_url: '420x420'}}" alt="{{ collection.title }}">
         </div>
-        <div class="small--one-whole medium-up--two-thirds grid__item" >
+        <div class="" >
           <a href="/collections/{{ collection.title | handleize }}">
             <h2 class="autor-title">{{ collection.title }}</h2>
           </a>
-          <div class="autor-description">{% if collection.description.size > 500 %}<p>{{ collection.description | truncate: 500 }} <a href="{{ collection.url }}"><b>Leia mais</b></a></p>{% else %}<p>{{ collection.description }}</p>{% endif %}</div>
+          <div class="autor-description">
+            {% if collection.description.size > 500 %}
+            	<p>{{ collection.description | truncate: 500 }} <a href="{{ collection.url }}"><b>Leia mais</b></a></p>
+            {% else %}
+            	<p>{{ collection.description }}</p>
+            {% endif %}
+          </div>
         </div>
       </div>
       {% else %}
         {% if collection.title == authors[1] %}
-        <div class="grid grid__item medium-up-one-whole">
-          <div class="small--one-whole medium-up--one-third grid__item">
+        <div class="grid">
+          <div class="">
             <img class="picture-author-on-product" src="{{ collection.image | img_url: '420x420'}}" alt="{{ collection.title }}">
           </div>
-          <div class="small--one-whole medium-up--two-thirds grid__item">
-            <div class="small--one-whole fl autor-box">
+          <div class="">
+            <div class="">
               <a href="/collections/{{ collection.title | handleize }}">
                 <h2 class="autor-title">{{ collection.title }}</h2>
               </a>
@@ -63,11 +69,11 @@
 {% if displayillustrator == true %}
   {% for collection in collections %}
     {% if collection.title == illustrator %}
-      <div class="grid grid__item medium-up-one-whole author-on-product">
-        <div class="small--one-whole medium-up--one-third grid__item">
+      <div class="grid ">
+        <div class="">
             <img class="picture-author-on-product" src="{{ collection.image | img_url: '420x420'}}" alt="{{ collection.title }}">
           </div>      
-        <div class="small--one-whole medium-up--two-thirds grid__item">
+        <div class="">
           
             <h2 class="autor-title"><a href="/collections/{{ collection.title | handleize }}">{{ collection.title }}</a><small class="txt--emphasis"> - ilustrações</small></h2>
           <div class="autor-description">{% if collection.description.size > 500 %}<p>{{ collection.description | truncate: 500 }} <a href="{{ collection.url }}"><b>Leia mais</b></a></p>{% else %}<p>{{ collection.description }}</p>{% endif %}</div>
@@ -79,6 +85,7 @@
 {% endif %}
 </div>
 </div>
+
 {% schema %}
 {
   "name": "Author"
