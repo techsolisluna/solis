@@ -1,10 +1,59 @@
 {
   "sections": {
+    "1628128134e7f9c87b": {
+      "type": "image-banner",
+      "blocks": {
+        "1628128134e7f9c87b-0": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "Image banner"
+          }
+        },
+        "1628128134e7f9c87b-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template."
+          }
+        },
+        "1628128134e7f9c87b-2": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "1628128134e7f9c87b-0",
+        "1628128134e7f9c87b-1",
+        "1628128134e7f9c87b-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Stand_virtual_textura.png",
+        "desktop_text_box_position": "flex-start",
+        "color_scheme": "background-1",
+        "stack_images_on_mobile": false,
+        "adapt_height_first_image": false
+      }
+    },
     "main": {
-      "type": "main-blog"
+      "type": "main-blog",
+      "settings": {
+        "show_image": true,
+        "show_date": true,
+        "show_author": false
+      }
     }
   },
   "order": [
+    "1628128134e7f9c87b",
     "main"
   ]
 }

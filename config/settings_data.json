@@ -12,15 +12,25 @@
         "blocks": {
           "announcement-bar-0": {
             "type": "announcement",
+            "disabled": true,
             "settings": {
               "text": "Boas-vindas ao novo site da Solisluna!",
               "color_scheme": "accent-2",
               "link": ""
             }
+          },
+          "eaf9d685-3754-49d5-a086-429826232c4b": {
+            "type": "announcement",
+            "settings": {
+              "text": "✈ Frete grátis em compras a partir de R$300",
+              "color_scheme": "accent-1",
+              "link": ""
+            }
           }
         },
         "block_order": [
-          "announcement-bar-0"
+          "announcement-bar-0",
+          "eaf9d685-3754-49d5-a086-429826232c4b"
         ],
         "settings": {
         }
