@@ -18,12 +18,12 @@
         "button": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Shop all",
+            "button_label_1": "Loja",
             "button_link_1": "shopify:\/\/collections\/all",
             "button_style_secondary_1": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
+            "button_label_2": "Serviços",
+            "button_link_2": "shopify:\/\/pages\/o-curioso-destino-de-rita-quebra-cama",
+            "button_style_secondary_2": true
           }
         }
       },
@@ -33,6 +33,7 @@
         "button"
       ],
       "settings": {
+        "image": "shopify:\/\/shop_images\/Banner_Migrantes_1.png",
         "image_2": "shopify:\/\/shop_images\/Stand_virtual_textura.png",
         "desktop_text_box_position": "center",
         "color_scheme": "background-1",
@@ -109,10 +110,10 @@
     "162813019149727a3d": {
       "type": "collection-list",
       "blocks": {
-        "162813019149727a3d-0": {
+        "5a9cf972-ca58-4f83-b331-482ad5b2b14c": {
           "type": "featured_collection",
           "settings": {
-            "collection": "arte"
+            "collection": "infantil"
           }
         },
         "162813019149727a3d-1": {
@@ -133,40 +134,51 @@
             "collection": "educacao"
           }
         },
-        "5a9cf972-ca58-4f83-b331-482ad5b2b14c": {
+        "162813019149727a3d-0": {
           "type": "featured_collection",
           "settings": {
-            "collection": "infantil"
+            "collection": "arte"
           }
         },
         "00a15d5c-b050-4d4c-86b4-63f7ab5859b0": {
           "type": "featured_collection",
+          "disabled": true,
           "settings": {
             "collection": ""
           }
         },
         "cdc05135-eff0-4646-9f30-e4442c85ca76": {
           "type": "featured_collection",
+          "disabled": true,
           "settings": {
             "collection": ""
           }
         },
         "d4542dee-3938-49f4-aacd-6a130ee17610": {
           "type": "featured_collection",
+          "disabled": true,
+          "settings": {
+            "collection": ""
+          }
+        },
+        "8e7e144c-ae2d-4bfd-85c1-26da33332d4a": {
+          "type": "featured_collection",
+          "disabled": true,
           "settings": {
             "collection": ""
           }
         }
       },
       "block_order": [
-        "162813019149727a3d-0",
+        "5a9cf972-ca58-4f83-b331-482ad5b2b14c",
         "162813019149727a3d-1",
         "162813019149727a3d-2",
         "313d1846-3e5c-466a-8fb9-7ca8677a46e1",
-        "5a9cf972-ca58-4f83-b331-482ad5b2b14c",
+        "162813019149727a3d-0",
         "00a15d5c-b050-4d4c-86b4-63f7ab5859b0",
         "cdc05135-eff0-4646-9f30-e4442c85ca76",
-        "d4542dee-3938-49f4-aacd-6a130ee17610"
+        "d4542dee-3938-49f4-aacd-6a130ee17610",
+        "8e7e144c-ae2d-4bfd-85c1-26da33332d4a"
       ],
       "settings": {
         "title": "Explore por coleção de livros",
