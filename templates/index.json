@@ -33,12 +33,12 @@
         "button"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Banner_Migrantes_1.png",
+        "image": "shopify:\/\/shop_images\/Stand_virtual_textura.png",
         "image_2": "shopify:\/\/shop_images\/Stand_virtual_textura.png",
         "desktop_text_box_position": "center",
         "color_scheme": "background-1",
-        "stack_images_on_mobile": true,
-        "adapt_height_first_image": false
+        "stack_images_on_mobile": false,
+        "adapt_height_first_image": true
       }
     },
     "featured_products": {
@@ -226,8 +226,8 @@
         "162813018106f0bc6e-0": {
           "type": "heading",
           "settings": {
-            "heading": "Talk about your brand",
-            "heading_size": "h1"
+            "heading": "Papo reto",
+            "heading_size": "h0"
           }
         },
         "162813018106f0bc6e-1": {
@@ -238,6 +238,7 @@
         },
         "162813018106f0bc6e-2": {
           "type": "button",
+          "disabled": true,
           "settings": {
             "button_label": "Button label",
             "button_link": "",
@@ -253,6 +254,36 @@
       "settings": {
         "color_scheme": "background-1",
         "full_width": true
+      }
+    },
+    "1628130243656cad6b": {
+      "type": "collage",
+      "blocks": {
+        "1628130243656cad6b-0": {
+          "type": "video",
+          "settings": {
+            "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+            "description": "Describe the video for customers using screen readers",
+            "image_padding": false
+          }
+        },
+        "1628130243656cad6b-2": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image_padding": false,
+            "color_scheme": "background-1"
+          }
+        }
+      },
+      "block_order": [
+        "1628130243656cad6b-0",
+        "1628130243656cad6b-2"
+      ],
+      "settings": {
+        "heading": "",
+        "desktop_layout": "left",
+        "mobile_layout": "collage"
       }
     },
     "162812937256217f29": {
@@ -313,6 +344,7 @@
     "162813019149727a3d",
     "16281298397ca9bc38",
     "162813018106f0bc6e",
+    "1628130243656cad6b",
     "162812937256217f29",
     "1628129883dbcebdfc"
   ]
