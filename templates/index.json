@@ -58,22 +58,23 @@
     "16280285318dc3fdd4": {
       "type": "multicolumn",
       "blocks": {
-        "16280285318dc3fdd4-0": {
-          "type": "column",
-          "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
-          }
-        },
         "16280285318dc3fdd4-1": {
           "type": "column",
           "settings": {
-            "title": "Column",
+            "title": "Livros para Adultos",
+            "text": "<p>Ficção e não ficção. Literatura em geral, romances e poesias. Livros de história e sobre a memória da Brasil. Também livros arte, fotografia e design. <\/p>"
+          }
+        },
+        "16280285318dc3fdd4-0": {
+          "type": "column",
+          "settings": {
+            "title": "Livros para crianças e jovens",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
           }
         },
         "16280285318dc3fdd4-2": {
           "type": "column",
+          "disabled": true,
           "settings": {
             "title": "Column",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
@@ -81,6 +82,7 @@
         },
         "33558b47-eac4-4898-9cd2-9a7d9b6eaa7d": {
           "type": "column",
+          "disabled": true,
           "settings": {
             "title": "Column",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
@@ -88,26 +90,42 @@
         }
       },
       "block_order": [
-        "16280285318dc3fdd4-0",
         "16280285318dc3fdd4-1",
+        "16280285318dc3fdd4-0",
         "16280285318dc3fdd4-2",
         "33558b47-eac4-4898-9cd2-9a7d9b6eaa7d"
       ],
       "settings": {
-        "title": "Multicolumn",
+        "title": "Qual o tipo de leitura você procura?",
         "image_width": "full",
         "image_ratio": "adapt",
         "column_alignment": "left",
-        "background_style": "primary",
-        "button_label": "Button label",
+        "background_style": "secondary",
+        "button_label": "",
         "button_link": "",
-        "swipe_on_mobile": false
+        "swipe_on_mobile": true
+      }
+    },
+    "162812937256217f29": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Livros em parceria com o Selo Emília",
+        "collection": "selo-emilia",
+        "products_to_show": 6,
+        "show_view_all": true,
+        "swipe_on_mobile": true,
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "add_image_padding": false,
+        "show_image_outline": true,
+        "show_vendor": false
       }
     }
   },
   "order": [
     "image_banner",
     "featured_products",
-    "16280285318dc3fdd4"
+    "16280285318dc3fdd4",
+    "162812937256217f29"
   ]
 }
