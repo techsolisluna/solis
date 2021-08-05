@@ -1,3 +1,5 @@
+{{ 'section-author-product.css' | asset_url | stylesheet_tag }}
+
 {% if product.vendor contains ' e ' %}
   {% assign authors = product.vendor | split: ' e ' %} 
   {% assign author = authors[0] %}
@@ -53,12 +55,12 @@
             <img class="picture-author-on-product" src="{{ collection.image | img_url: '420x420'}}" alt="{{ collection.title }}">
           </div>
           <div class="grid__item">
-            <div class="">
+
               <a href="/collections/{{ collection.title | handleize }}">
                 <h2 class="autor-title">{{ collection.title }}</h2>
               </a>
               <div class="autor-description">{% if collection.description.size > 500 %}<p>{{ collection.description | truncate: 500 }} <a href="{{ collection.url }}"><b>Leia mais</b></a></p>{% else %}<p>{{ collection.description }}</p>{% endif %}</div>
-            </div>
+            
           </div>
         </div>
         {% endif %}
