@@ -42,17 +42,20 @@
         },
         "price": {
           "type": "price",
+          "disabled": true,
           "settings": {
           }
         },
         "variant_picker": {
           "type": "variant_picker",
+          "disabled": true,
           "settings": {
             "picker_type": "button"
           }
         },
         "quantity_selector": {
           "type": "quantity_selector",
+          "disabled": true,
           "settings": {
           }
         },
@@ -158,40 +161,13 @@
         "show_vendor": true
       }
     },
-    "1628127011e63bed93": {
-      "type": "collection-list",
-      "blocks": {
-        "1628127011e63bed93-0": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": ""
-          }
-        },
-        "1628127011e63bed93-1": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": ""
-          }
-        },
-        "1628127011e63bed93-2": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": ""
-          }
-        }
-      },
-      "block_order": [
-        "1628127011e63bed93-0",
-        "1628127011e63bed93-1",
-        "1628127011e63bed93-2"
-      ],
+    "1628132545d1072f11": {
+      "type": "video",
       "settings": {
-        "title": "Collections",
-        "image_ratio": "square",
-        "color_scheme": "background-1",
-        "swipe_on_mobile": false,
-        "image_padding": false,
-        "show_view_all": false
+        "heading": "Video",
+        "video_url": "https:\/\/www.youtube.com\/watch?v=rGET7uwK-wo",
+        "description": "",
+        "full_width": false
       }
     }
   },
@@ -200,6 +176,6 @@
     "1628042073aa1ead15",
     "author-product",
     "product-recommendations",
-    "1628127011e63bed93"
+    "1628132545d1072f11"
   ]
 }
