@@ -142,14 +142,9 @@
         "swipe_on_mobile": false
       }
     },
-    "1628030198727085bf": {
-      "type": "video",
-      "disabled": true,
+    "author-product": {
+      "type": "author-product",
       "settings": {
-        "heading": "Assista ao vídeo sobre o livro {{ product.title }} - {{ product.metafields.descriptors.subtitle.value }}",
-        "video_url": "",
-        "description": "",
-        "full_width": true
       }
     },
     "product-recommendations": {
@@ -162,16 +157,12 @@
         "show_image_outline": true,
         "show_vendor": true
       }
-    },
-    "author-product": {
-      "type": "author-product"
     }
   },
   "order": [
     "main",
     "1628042073aa1ead15",
-    "1628030198727085bf",
-    "product-recommendations",
-    "author-product"
+    "author-product",
+    "product-recommendations"
   ]
 }
