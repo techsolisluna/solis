@@ -2,6 +2,7 @@
   "sections": {
     "1628041562b1dac090": {
       "type": "custom-liquid",
+      "disabled": true,
       "settings": {
         "custom_liquid": "<img src=\"{{collection.image | img_url: '1080x' }}\"alt=\" {{collection.title}}\" \/>"
       }
@@ -21,8 +22,8 @@
         "show_secondary_image": false,
         "add_image_padding": false,
         "show_image_outline": true,
-        "show_vendor": false,
-        "enable_filtering": false,
+        "show_vendor": true,
+        "enable_filtering": true,
         "enable_sorting": false
       }
     }
