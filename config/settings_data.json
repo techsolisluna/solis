@@ -12,7 +12,6 @@
         "blocks": {
           "announcement-bar-0": {
             "type": "announcement",
-            "disabled": true,
             "settings": {
               "text": "Boas-vindas ao novo site da Solisluna!",
               "color_scheme": "accent-2",
@@ -59,20 +58,29 @@
           "66552480-069f-4f4e-b399-0346dd6b89a8": {
             "type": "text",
             "settings": {
-              "heading": "Heading",
-              "subtext": "<p>Share store details, promotions, or brand content with your customers.<\/p>"
+              "heading": "Solisluna é o encontro do sol com a lua",
+              "subtext": "<p>A Solisluna Design Editora nasceu em 1993 na cidade de Salvador, Bahia. <br\/><strong>A nossa missão é:<\/strong> garantir qualidade superior, respeitando o indivíduo, a sociedade e o meio ambiente, promovendo educação e cultura.<br\/>Conheça mais sobre a nossa história<\/p>"
+            }
+          },
+          "8abbf080-a335-4c9d-a2eb-b199a6e248eb": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/logopng_black.png",
+              "image_width": 160,
+              "alignment": "center"
             }
           }
         },
         "block_order": [
           "footer-0",
-          "66552480-069f-4f4e-b399-0346dd6b89a8"
+          "66552480-069f-4f4e-b399-0346dd6b89a8",
+          "8abbf080-a335-4c9d-a2eb-b199a6e248eb"
         ],
         "settings": {
           "color_scheme": "background-1",
           "newsletter_enable": true,
-          "newsletter_heading": "Sign up to our emails",
-          "show_social": false,
+          "newsletter_heading": "Conecte-se com nossos emails",
+          "show_social": true,
           "enable_country_selector": true,
           "enable_language_selector": true,
           "payment_enable": true
