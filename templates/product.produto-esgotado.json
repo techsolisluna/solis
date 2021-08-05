@@ -46,32 +46,10 @@
           "settings": {
           }
         },
-        "variant_picker": {
-          "type": "variant_picker",
-          "disabled": true,
-          "settings": {
-            "picker_type": "button"
-          }
-        },
-        "quantity_selector": {
-          "type": "quantity_selector",
-          "disabled": true,
-          "settings": {
-          }
-        },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
             "show_dynamic_checkout": false
-          }
-        },
-        "ac5d2265-3446-44b4-9455-7d569c8114a4": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Informações técnicas",
-            "content": "<p>{{ product.metafields.infotecnica.dados | metafield_tag }}<\/p><p>{{ product.vendor }}<\/p><p><\/p>",
-            "page": "",
-            "icon": "ruler"
           }
         },
         "description": {
@@ -79,9 +57,25 @@
           "settings": {
           }
         },
+        "ac5d2265-3446-44b4-9455-7d569c8114a4": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Informações técnicas",
+            "content": "<p>{{ product.metafields.infotecnica.dados | metafield_tag }}<\/p><p><\/p><p><\/p>",
+            "page": "",
+            "icon": "ruler"
+          }
+        },
         "share": {
           "type": "share",
           "settings": {
+          }
+        },
+        "1036ce00-b38d-4124-8b98-b86c99667a9b": {
+          "type": "text",
+          "settings": {
+            "text": "{{ product.metafields.facts.isbn.value }}",
+            "text_style": "subtitle"
           }
         }
       },
@@ -92,12 +86,11 @@
         "b1578458-d656-46d8-bcc8-1d4b3e5d88a0",
         "vendor",
         "price",
-        "variant_picker",
-        "quantity_selector",
         "buy_buttons",
-        "ac5d2265-3446-44b4-9455-7d569c8114a4",
         "description",
-        "share"
+        "ac5d2265-3446-44b4-9455-7d569c8114a4",
+        "share",
+        "1036ce00-b38d-4124-8b98-b86c99667a9b"
       ],
       "settings": {
         "enable_sticky_info": true,
