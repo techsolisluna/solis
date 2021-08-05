@@ -63,7 +63,7 @@
           "type": "collapsible_tab",
           "settings": {
             "heading": "Saiba em primeira mão quando chegar uma nova edição! :)",
-            "content": "<p>sds<\/p>",
+            "content": "",
             "page": "cadastro-prevenda",
             "icon": "heart"
           }
