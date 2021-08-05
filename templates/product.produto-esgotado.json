@@ -1,0 +1,168 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {
+          }
+        },
+        "d7b84718-060b-4245-baa8-998317257985": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<hr>\n<a href=\"\">{{ product.vendor }}<\/a><br\/>\n{% if product.metafields.autor.ilustrador %}\n<i>Ilustrações:<\/i> <a href=\"\">{{ product.metafields.autor.ilustrador }}<\/a>\n{% endif %}\n<hr>"
+          }
+        },
+        "subtitle": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "{{ product.metafields.descriptors.subtitle.value }}",
+            "text_style": "subtitle"
+          }
+        },
+        "b1578458-d656-46d8-bcc8-1d4b3e5d88a0": {
+          "type": "collapsible_tab",
+          "disabled": true,
+          "settings": {
+            "heading": "{{ product.vendor }}",
+            "content": "",
+            "page": "",
+            "icon": "star"
+          }
+        },
+        "vendor": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "{{ product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button"
+          }
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "settings": {
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": false
+          }
+        },
+        "ac5d2265-3446-44b4-9455-7d569c8114a4": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Informações técnicas",
+            "content": "<p>{{ product.metafields.infotecnica.dados | metafield_tag }}<\/p><p>{{ product.vendor }}<\/p><p><\/p>",
+            "page": "",
+            "icon": "ruler"
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+          }
+        },
+        "share": {
+          "type": "share",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "d7b84718-060b-4245-baa8-998317257985",
+        "subtitle",
+        "b1578458-d656-46d8-bcc8-1d4b3e5d88a0",
+        "vendor",
+        "price",
+        "variant_picker",
+        "quantity_selector",
+        "buy_buttons",
+        "ac5d2265-3446-44b4-9455-7d569c8114a4",
+        "description",
+        "share"
+      ],
+      "settings": {
+        "enable_sticky_info": true,
+        "enable_video_looping": false
+      }
+    },
+    "1628042073aa1ead15": {
+      "type": "multicolumn",
+      "blocks": {
+        "1628042073aa1ead15-2": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
+          }
+        },
+        "1628042073aa1ead15-0": {
+          "type": "column",
+          "settings": {
+            "title": "⭐️⭐️⭐️⭐️⭐️",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<br\/><\/p><p><\/p>"
+          }
+        },
+        "1628042073aa1ead15-1": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "1628042073aa1ead15-2",
+        "1628042073aa1ead15-0",
+        "1628042073aa1ead15-1"
+      ],
+      "settings": {
+        "title": "O que leitores falam do livro {{ product.title }}",
+        "image_width": "third",
+        "image_ratio": "adapt",
+        "column_alignment": "center",
+        "background_style": "secondary",
+        "button_label": "",
+        "button_link": "",
+        "swipe_on_mobile": false
+      }
+    },
+    "author-product": {
+      "type": "author-product",
+      "settings": {
+      }
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "settings": {
+        "heading": "Livros da Solisluna que você também pode gostar :)",
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "add_image_padding": false,
+        "show_image_outline": true,
+        "show_vendor": true
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1628042073aa1ead15",
+    "author-product",
+    "product-recommendations"
+  ]
+}
