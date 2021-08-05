@@ -42,6 +42,7 @@
         },
         "price": {
           "type": "price",
+          "disabled": true,
           "settings": {
           }
         },
@@ -53,11 +54,13 @@
         },
         "quantity_selector": {
           "type": "quantity_selector",
+          "disabled": true,
           "settings": {
           }
         },
         "buy_buttons": {
           "type": "buy_buttons",
+          "disabled": true,
           "settings": {
             "show_dynamic_checkout": false
           }
@@ -132,8 +135,8 @@
         "1628042073aa1ead15-2"
       ],
       "settings": {
-        "title": "Atributo Fixo",
-        "image_width": "full",
+        "title": "O que leitores falam de {{ product.title }}",
+        "image_width": "third",
         "image_ratio": "adapt",
         "column_alignment": "center",
         "background_style": "secondary",
@@ -150,12 +153,48 @@
     "product-recommendations": {
       "type": "product-recommendations",
       "settings": {
-        "heading": "Você também pode gostar",
+        "heading": "Livros da Solisluna que você também pode gostar :)",
         "image_ratio": "adapt",
         "show_secondary_image": false,
         "add_image_padding": false,
         "show_image_outline": true,
         "show_vendor": true
+      }
+    },
+    "1628127011e63bed93": {
+      "type": "collection-list",
+      "blocks": {
+        "1628127011e63bed93-0": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": ""
+          }
+        },
+        "1628127011e63bed93-1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": ""
+          }
+        },
+        "1628127011e63bed93-2": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": ""
+          }
+        }
+      },
+      "block_order": [
+        "1628127011e63bed93-0",
+        "1628127011e63bed93-1",
+        "1628127011e63bed93-2"
+      ],
+      "settings": {
+        "title": "Collections",
+        "image_ratio": "square",
+        "color_scheme": "background-1",
+        "swipe_on_mobile": false,
+        "image_padding": false,
+        "show_view_all": false
       }
     }
   },
@@ -163,6 +202,7 @@
     "main",
     "1628042073aa1ead15",
     "author-product",
-    "product-recommendations"
+    "product-recommendations",
+    "1628127011e63bed93"
   ]
 }
