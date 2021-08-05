@@ -106,6 +106,77 @@
         "swipe_on_mobile": true
       }
     },
+    "162813019149727a3d": {
+      "type": "collection-list",
+      "blocks": {
+        "162813019149727a3d-0": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "arte"
+          }
+        },
+        "162813019149727a3d-1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "cultura-afrobrasileira"
+          }
+        },
+        "162813019149727a3d-2": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "literatura"
+          }
+        },
+        "313d1846-3e5c-466a-8fb9-7ca8677a46e1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": ""
+          }
+        },
+        "5a9cf972-ca58-4f83-b331-482ad5b2b14c": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": ""
+          }
+        },
+        "00a15d5c-b050-4d4c-86b4-63f7ab5859b0": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": ""
+          }
+        },
+        "cdc05135-eff0-4646-9f30-e4442c85ca76": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": ""
+          }
+        },
+        "d4542dee-3938-49f4-aacd-6a130ee17610": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": ""
+          }
+        }
+      },
+      "block_order": [
+        "162813019149727a3d-0",
+        "162813019149727a3d-1",
+        "162813019149727a3d-2",
+        "313d1846-3e5c-466a-8fb9-7ca8677a46e1",
+        "5a9cf972-ca58-4f83-b331-482ad5b2b14c",
+        "00a15d5c-b050-4d4c-86b4-63f7ab5859b0",
+        "cdc05135-eff0-4646-9f30-e4442c85ca76",
+        "d4542dee-3938-49f4-aacd-6a130ee17610"
+      ],
+      "settings": {
+        "title": "Ou escolha por coleção",
+        "image_ratio": "adapt",
+        "color_scheme": "accent-1",
+        "swipe_on_mobile": true,
+        "image_padding": false,
+        "show_view_all": false
+      }
+    },
     "16281298397ca9bc38": {
       "type": "newsletter",
       "blocks": {
@@ -134,6 +205,41 @@
       ],
       "settings": {
         "color_scheme": "inverse",
+        "full_width": true
+      }
+    },
+    "162813018106f0bc6e": {
+      "type": "rich-text",
+      "blocks": {
+        "162813018106f0bc6e-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Talk about your brand",
+            "heading_size": "h1"
+          }
+        },
+        "162813018106f0bc6e-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+          }
+        },
+        "162813018106f0bc6e-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "162813018106f0bc6e-0",
+        "162813018106f0bc6e-1",
+        "162813018106f0bc6e-2"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
         "full_width": true
       }
     },
@@ -192,7 +298,9 @@
     "image_banner",
     "featured_products",
     "16280285318dc3fdd4",
+    "162813019149727a3d",
     "16281298397ca9bc38",
+    "162813018106f0bc6e",
     "162812937256217f29",
     "1628129883dbcebdfc"
   ]
