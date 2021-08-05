@@ -75,7 +75,9 @@
           </div>      
         <div class="">
           
-            <h2 class="autor-title"><a href="/collections/{{ collection.title | handleize }}">{{ collection.title }}</a><small class="txt--emphasis"> - ilustrações</small></h2>
+            <a href="/collections/{{ collection.title | handleize }}">
+              <h2 class="autor-title">{{ collection.title }}<small class="txt--emphasis"> - ilustrações</small></h2>
+            </a>
           <div class="autor-description">{% if collection.description.size > 500 %}<p>{{ collection.description | truncate: 500 }} <a href="{{ collection.url }}"><b>Leia mais</b></a></p>{% else %}<p>{{ collection.description }}</p>{% endif %}</div>
         </div>
       </div>
