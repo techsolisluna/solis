@@ -1,46 +1,24 @@
 {
   "sections": {
-    "1628128134e7f9c87b": {
-      "type": "image-banner",
+    "1628128166e0873b2c": {
+      "type": "collage",
       "blocks": {
-        "1628128134e7f9c87b-0": {
-          "type": "heading",
-          "disabled": true,
+        "bc177ea5-2ff5-4bb6-bb1a-52f3650c4b1a": {
+          "type": "image",
           "settings": {
-            "heading": "Image banner"
-          }
-        },
-        "1628128134e7f9c87b-1": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "text": "Give customers details about the banner image(s) or content on the template."
-          }
-        },
-        "1628128134e7f9c87b-2": {
-          "type": "buttons",
-          "disabled": true,
-          "settings": {
-            "button_label_1": "Button label",
-            "button_link_1": "",
-            "button_style_secondary_1": false,
-            "button_label_2": "Button label",
-            "button_link_2": "",
-            "button_style_secondary_2": false
+            "image": "shopify:\/\/shop_images\/Banner_Migrantes_1.png",
+            "image_padding": false,
+            "color_scheme": "background-1"
           }
         }
       },
       "block_order": [
-        "1628128134e7f9c87b-0",
-        "1628128134e7f9c87b-1",
-        "1628128134e7f9c87b-2"
+        "bc177ea5-2ff5-4bb6-bb1a-52f3650c4b1a"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Stand_virtual_textura.png",
-        "desktop_text_box_position": "flex-start",
-        "color_scheme": "background-1",
-        "stack_images_on_mobile": false,
-        "adapt_height_first_image": false
+        "heading": "",
+        "desktop_layout": "left",
+        "mobile_layout": "collage"
       }
     },
     "main": {
@@ -50,10 +28,52 @@
         "show_date": true,
         "show_author": false
       }
+    },
+    "1628128383afdcae5e": {
+      "type": "multicolumn",
+      "blocks": {
+        "1628128383afdcae5e-0": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
+          }
+        },
+        "1628128383afdcae5e-1": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
+          }
+        },
+        "1628128383afdcae5e-2": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "1628128383afdcae5e-0",
+        "1628128383afdcae5e-1",
+        "1628128383afdcae5e-2"
+      ],
+      "settings": {
+        "title": "Multicolumn",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "Button label",
+        "button_link": "",
+        "swipe_on_mobile": false
+      }
     }
   },
   "order": [
-    "1628128134e7f9c87b",
-    "main"
+    "1628128166e0873b2c",
+    "main",
+    "1628128383afdcae5e"
   ]
 }
