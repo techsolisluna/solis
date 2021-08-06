@@ -1,13 +1,36 @@
+@media screen and (min-width: 1280px) {
+    .padding1{
+        padding: 5rem 20rem;
+        margin-top: 10rem;
+    }
+}
+
 .author-link{
     text-decoration: none;
+
+    transition: filter 0.2s;
+}
+
+.author-link:hover{
+    filter: opacity(0.81);
 }
 
 .picture-author-on-product{
     border-radius: 15px;
 }
 
-@media screen and (min-width: 1280px) {
-    .padding1{
-        padding: 5rem 20rem;
-    }
+@media screen and (max-width: 450px) {
+    .picture-author-on-product{
+        max-width: 100%;
+    } 
+}
+
+.leiamais{
+    color: rgb(var(--color-base-accent-1));
+    text-decoration: none;
+    transition: filter 0.2s;
+}
+
+.leiamais:hover{
+    filter: brightness(90%);
 }

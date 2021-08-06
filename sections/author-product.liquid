@@ -41,7 +41,7 @@
           </a>
           <div class="autor-description">
             {% if collection.description.size > 500 %}
-            	<p>{{ collection.description | truncate: 500 }} <br><a href="{{ collection.url }}"><b>Leia mais</b></a></p>
+            	<p>{{ collection.description | truncate: 500 }} <br><a class="leiamais" href="{{ collection.url }}"><b>Leia mais</b></a></p>
             {% else %}
             	<p>{{ collection.description }}</p>
             {% endif %}
@@ -59,7 +59,7 @@
               <a href="/collections/{{ collection.title | handleize }}" class="author-link">
                 <h2 class="autor-title">{{ collection.title }}</h2>
               </a>
-              <div class="autor-description">{% if collection.description.size > 500 %}<p>{{ collection.description | truncate: 500 }} <br><a href="{{ collection.url }}"><b>Leia mais</b></a></p>{% else %}<p>{{ collection.description }}</p>{% endif %}</div>
+              <div class="autor-description">{% if collection.description.size > 500 %}<p>{{ collection.description | truncate: 500 }} <br><a class="leiamais" href="{{ collection.url }}"><b>Leia mais</b></a></p>{% else %}<p>{{ collection.description }}</p>{% endif %}</div>
             
           </div>
         </div>
@@ -80,7 +80,7 @@
             <a href="/collections/{{ collection.title | handleize }}" class="author-link">
               <h2 class="autor-title">{{ collection.title }}<small class="txt--emphasis"> - ilustrações</small></h2>
             </a>
-          <div class="autor-description">{% if collection.description.size > 500 %}<p>{{ collection.description | truncate: 500 }} <br><a href="{{ collection.url }}"><b>Leia mais</b></a></p>{% else %}<p>{{ collection.description }}</p>{% endif %}</div>
+          <div class="autor-description">{% if collection.description.size > 500 %}<p>{{ collection.description | truncate: 500 }} <br><a class="leiamais" href="{{ collection.url }}"><b>Leia mais</b></a></p>{% else %}<p>{{ collection.description }}</p>{% endif %}</div>
         </div>
       </div>
     {% endif %}
