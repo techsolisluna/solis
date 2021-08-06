@@ -10,7 +10,7 @@
 }
 
 .author-link h2{
-    transition: filter 0.2s;
+    transition: filter 0.1s;
 }
 
 .author-link:hover h2{
@@ -30,12 +30,10 @@
 .leiamais{
     color: rgb(var(--color-base-accent-1));
     text-decoration: none;
+
+    transition: filter 0.1s;
 }
 
-.leiamais b{
-    transition: filter 0.2s;
-}
-
-.leiamais:hover b{
+.leiamais:hover{
     filter: brightness(90%);
 }
