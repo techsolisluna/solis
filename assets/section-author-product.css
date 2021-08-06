@@ -7,11 +7,13 @@
 
 .author-link{
     text-decoration: none;
+}
 
+.author-link h2{
     transition: filter 0.2s;
 }
 
-.author-link:hover{
+.author-link:hover h2{
     filter: opacity(0.81);
 }
 
@@ -28,9 +30,12 @@
 .leiamais{
     color: rgb(var(--color-base-accent-1));
     text-decoration: none;
+}
+
+.leiamais b{
     transition: filter 0.2s;
 }
 
-.leiamais:hover{
+.leiamais:hover b{
     filter: brightness(90%);
 }
