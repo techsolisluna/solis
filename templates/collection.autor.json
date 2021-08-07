@@ -7,6 +7,9 @@
         "show_collection_image": false
       }
     },
+    "author": {
+      "type": "author-page"
+    },
     "product-grid": {
       "type": "main-collection-product-grid",
       "settings": {
@@ -23,6 +26,7 @@
   },
   "order": [
     "banner",
+    "author-page",
     "product-grid"
   ]
 }
