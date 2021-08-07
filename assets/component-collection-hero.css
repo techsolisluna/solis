@@ -112,6 +112,10 @@
   max-width: 100%;
 }
 
+.collection-hero__inner {
+  padding-top: 1rem;
+}
+
 @media screen and (max-width: 749px) {
   .collection-hero__inner {
     flex-direction: column-reverse;
