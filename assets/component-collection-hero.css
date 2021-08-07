@@ -123,3 +123,8 @@
     max-width: 100%;
   }
 }
+
+.grid-item{
+  width: 100%;
+  max-width: 100%;
+}
