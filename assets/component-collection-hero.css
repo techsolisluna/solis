@@ -100,9 +100,22 @@
     margin-left: 3rem;
     min-height: 20rem;
   }
-  
-  /* ----------------- Ajustes (Atention) ------------------ */
-  .foto-autor img {
-  	border-radius:15px;
+}
+
+/* ----------------- Ajustes (Atention) ------------------ */
+.foto-autor{
+  overflow: hidden;
+}
+
+.foto-autor img {
+  border-radius:15px;
+  max-width: 100%;
+}
+
+@media screen and (max-width: 749px) {
+  .collection-hero__inner {
+    flex-direction: column-reverse;
+    width: 100%;
+    max-width: 100%;
   }
 }
