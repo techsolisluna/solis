@@ -36,6 +36,7 @@
     },
     "author": {
       "type": "author-page",
+      "disabled": true,
       "settings": {
       }
     },
