@@ -1,10 +1,37 @@
 {
   "sections": {
     "banner": {
-      "type": "main-collection-banner",
+      "type": "main-collection-banner-autor",
       "settings": {
-        "show_collection_description": false,
-        "show_collection_image": false
+        "show_collection_description": true,
+        "show_collection_image": true
+      }
+    },
+    "1628348619e8ba8675": {
+      "type": "rich-text",
+      "blocks": {
+        "1628348619e8ba8675-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "",
+            "heading_size": "h2"
+          }
+        },
+        "1628348619e8ba8675-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "1628348619e8ba8675-0",
+        "1628348619e8ba8675-1"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": false
       }
     },
     "author": {
@@ -19,14 +46,15 @@
         "add_image_padding": false,
         "show_image_outline": true,
         "show_vendor": false,
-        "enable_filtering": true,
-        "enable_sorting": true
+        "enable_filtering": false,
+        "enable_sorting": false
       }
     }
   },
   "order": [
     "banner",
-    "author-page",
+    "1628348619e8ba8675",
+    "author",
     "product-grid"
   ]
 }
