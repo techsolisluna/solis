@@ -440,10 +440,12 @@
             </svg>
           </div>
         </div>
-
-        <p class="collection-product-count light" role="status">
-          {{ 'sections.collection_template.product_count' | t: product_count: collection.products_count, count: collection.all_products_count }}
-        </p>
+        
+        {%- if section.settings.show_cont -%}
+          <p class="collection-product-count light" role="status">
+            {{ 'sections.collection_template.product_count' | t: product_count: collection.products_count, count: collection.all_products_count }}
+          </p>
+        {%- endif -%}
 
         <div class="title-wrapper center">
           <h2 class="title title--primary">
@@ -462,9 +464,11 @@
           </div>
         </div>
 
-        <p class="collection-product-count light" role="status">
-          {{ 'sections.collection_template.product_count' | t: product_count: collection.products_count, count: collection.all_products_count }}
-        </p>
+        {%- if section.settings.show_cont -%}
+          <p class="collection-product-count light" role="status">
+            {{ 'sections.collection_template.product_count' | t: product_count: collection.products_count, count: collection.all_products_count }}
+          </p>
+        {%- endif -%}
 
         <ul id="main-collection-product-grid" data-id="{{ section.id }}" class="
           grid grid--2-col negative-margin product-grid
@@ -547,6 +551,12 @@
       "id": "show_vendor",
       "default": false,
       "label": "t:sections.main-collection-product-grid.settings.show_vendor.label"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_cont",
+      "default": true,
+      "label": "Exibir quantidade de produtos"
     },
     {
       "type": "header",
