@@ -441,7 +441,9 @@
           </div>
         </div>
         
-        {%- if section.settings.show_cont -%}
+        {%- if section.settings.author_list -%}
+
+        {%- else -%}
           <p class="collection-product-count light" role="status">
             {{ 'sections.collection_template.product_count' | t: product_count: collection.products_count, count: collection.all_products_count }}
           </p>
@@ -464,10 +466,20 @@
           </div>
         </div>
 
-        {%- if section.settings.show_cont -%}
+        {%- if section.settings.author_list -%}
+
+        {%- else -%}
           <p class="collection-product-count light" role="status">
             {{ 'sections.collection_template.product_count' | t: product_count: collection.products_count, count: collection.all_products_count }}
           </p>
+        {%- endif -%}
+
+        {%- if section.settings.author_list -%}
+          {%- if collection.products_count > 1 -%}
+            <h2>Livros de {{ collection.title }} publicados pela Solisluna</h2>
+          {%- else -%}
+            <h2>Livro de {{ collection.title }} publicado pela Solisluna</h2>
+          {%- endif -%}
         {%- endif -%}
 
         <ul id="main-collection-product-grid" data-id="{{ section.id }}" class="
@@ -554,9 +566,9 @@
     },
     {
       "type": "checkbox",
-      "id": "show_cont",
-      "default": true,
-      "label": "Exibir quantidade de produtos"
+      "id": "author_list",
+      "default": false,
+      "label": "Lista de produtos de um autor"
     },
     {
       "type": "header",
