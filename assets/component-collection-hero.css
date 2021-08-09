@@ -110,6 +110,7 @@
 .foto-autor img {
   border-radius:15px;
   max-width: 100%;
+  height: auto;
 }
 
 .collection-hero__inner {
@@ -122,9 +123,9 @@
     width: 100%;
     max-width: 100%;
   }
-}
 
-.grid-item{
-  width: 100%;
-  max-width: 100%;
+  .grid-item{
+    width: 100%;
+    max-width: 100%;
+  }
 }
