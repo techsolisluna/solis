@@ -17,6 +17,14 @@
     filter: opacity(0.81);
 }
 
+.author-link .h3{
+    transition: filter 0.1s;
+}
+
+.author-link:hover .h3{
+    filter: opacity(0.81);
+}
+
 .picture-author-on-product{
     border-radius: 15px;
 }

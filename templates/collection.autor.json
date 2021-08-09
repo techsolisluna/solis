@@ -34,12 +34,6 @@
         "full_width": false
       }
     },
-    "author": {
-      "type": "author-page",
-      "disabled": true,
-      "settings": {
-      }
-    },
     "product-grid": {
       "type": "main-collection-product-grid",
       "settings": {
@@ -57,7 +51,6 @@
   "order": [
     "banner",
     "1628348619e8ba8675",
-    "author",
     "product-grid"
   ]
 }
