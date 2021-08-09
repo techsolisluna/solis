@@ -43,6 +43,7 @@
         "add_image_padding": false,
         "show_image_outline": true,
         "show_vendor": false,
+        "show_cont": false,
         "enable_filtering": false,
         "enable_sorting": false
       }
