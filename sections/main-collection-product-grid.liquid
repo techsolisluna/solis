@@ -487,7 +487,7 @@
           {% if collection.products_count < 4 %} grid--{{ collection.products_count }}-col-tablet{% else %}
             {% if collection.products_count == 4 %} grid--4-col-desktop{% else %} grid--3-col-tablet grid--one-third-max grid--4-col-desktop grid--quarter-max{% endif %}
           {% endif %}">
-          {%- for product in collection.products -%}
+          {%- for product in collection.products.filter.p.product_type=Livro -%}
             <li class="grid__item">
               {% render 'product-card', product_card_product: product, media_size: section.settings.image_ratio, show_secondary_image: section.settings.show_secondary_image, add_image_padding: section.settings.add_image_padding, show_vendor: section.settings.show_vendor, show_image_outline: section.settings.show_image_outline %}
             </li>
@@ -565,12 +565,6 @@
       "label": "t:sections.main-collection-product-grid.settings.show_vendor.label"
     },
     {
-      "type": "checkbox",
-      "id": "author_list",
-      "default": false,
-      "label": "Lista de produtos de um autor"
-    },
-    {
       "type": "header",
       "content": "t:sections.main-collection-product-grid.settings.header__1.content"
     },
@@ -586,6 +580,12 @@
       "id": "enable_sorting",
       "default": true,
       "label": "t:sections.main-collection-product-grid.settings.enable_sorting.label"
+    },
+    {
+      "type": "checkbox",
+      "id": "author_list",
+      "default": false,
+      "label": "Lista de produtos de um autor"
     }
   ]
 }
