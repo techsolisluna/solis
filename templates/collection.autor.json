@@ -9,6 +9,7 @@
     },
     "1628348619e8ba8675": {
       "type": "rich-text",
+      "disabled": true,
       "blocks": {
         "1628348619e8ba8675-0": {
           "type": "heading",
@@ -43,9 +44,9 @@
         "add_image_padding": false,
         "show_image_outline": true,
         "show_vendor": false,
-        "author_list": true,
         "enable_filtering": false,
-        "enable_sorting": false
+        "enable_sorting": false,
+        "author_list": true
       }
     }
   },
