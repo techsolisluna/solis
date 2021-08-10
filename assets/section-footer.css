@@ -512,7 +512,7 @@ footer details[open] summary ~ * {
   }
 }
 
-.footer-block-image > img {
+.footer-block-image img {
   height: auto;
 }
 
