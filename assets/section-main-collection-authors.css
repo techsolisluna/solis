@@ -1,10 +1,10 @@
 .autorespage {
     text-align:left;
     margin-top:3em;
+    margin-bottom:3em;
 }
 
 .autorestitulo {
-    margin-right:1em; 
     margin-bottom: 3em;
     font-size:27px;
     text-align:center;
@@ -31,6 +31,7 @@
 
 .autor-grid-item:hover p{
     text-decoration: underline;
+    text-underline-offset: 0.3rem;
 }
 
 img.desature { 
