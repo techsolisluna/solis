@@ -1,11 +1,10 @@
 .autorespage {
     text-align:left;
     margin-top:3em;
-    margin-left: 10%;
 }
 
 .autorestitulo {
-    margin-right:2em; 
+    margin-right:1em; 
     margin-bottom: 3em;
     font-size:27px;
     text-align:center;
@@ -17,7 +16,7 @@
     flex-wrap: wrap;
     width: 80%;
     margin: auto;
-    align-items: center;
+    align-items: flex-start;
     justify-content: space-between;
 }
 
