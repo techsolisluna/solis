@@ -5,21 +5,24 @@
   <div class="text-center">
     <div style="margin-bottom:1em;">
       <span class="h3 autorestitulo">{{ page.title }}</span>
-    <a href="/pages/ilustradores"><span>> ilustradores</span></a>
+      <a href="/pages/ilustradores"><span>> ilustradores</span></a>
+    </div>
   </div>
+
   <div>
-      {% for collection in collections %}
-        {% if collection.template_suffix == 'autor' or collection.metafields.autor.autor != 'ilustrador' %}
-          {% if collection.image %}
-            <div class="autor-grid-item">
-              <a href="{{collection.url}}">
-              <img src="{{ collection.image | img_url: 'compact' }}" alt="{{ collection.title }}" class="desature" />
-              </a>
-              <p>{{ collection.title }}</p>
-            </div>
-          {% endif %}
+    {% for collection in collections %}
+      {% if collection.template_suffix == 'autor' or collection.metafields.autor.autor != 'ilustrador' %}
+        {% if collection.image %}
+          <div class="autor-grid-item">
+            <a href="{{collection.url}}">
+            <img src="{{ collection.image | img_url: 'compact' }}" alt="{{ collection.title }}" class="desature" />
+            </a>
+            <p>{{ collection.title }}</p>
+          </div>
         {% endif %}
-      {% endfor %}
+      {% endif %}
+    {% endfor %}
+  </div>
 </div>
 
 {% schema %}
