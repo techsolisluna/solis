@@ -5,9 +5,24 @@
 }
 
 .autorestitulo {
+    margin-right: 1rem;
     margin-bottom: 3em;
     font-size:27px;
     text-align:center;
+}
+
+.ilustralink{
+    text-decoration: none;
+}
+
+.ilustralink span{
+    color: rgb(var(--color-base-text));
+
+    transition: filter .1s;
+}
+
+.ilustralink:hover span{
+    filter: opacity(0.81);
 }
 
 .autoresdiv{
@@ -27,6 +42,7 @@
     display:inline-table;
     padding-bottom:2em;
     max-width: 160px;
+    text-align: center;
 }
 
 .autor-grid-item:hover p{
