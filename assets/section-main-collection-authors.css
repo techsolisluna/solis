@@ -46,8 +46,11 @@
     margin: 0 .5rem;
 }
 
-.autor-grid-item:hover p{
+.autor-grid-item p{
     margin-top: 0;
+}
+
+.autor-grid-item:hover p{
     text-decoration: underline;
     text-underline-offset: 0.3rem;
 }
