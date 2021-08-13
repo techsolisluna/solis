@@ -18,11 +18,13 @@
 .ilustralink span{
     color: rgba(var(--color-base-text), .75);
 
-    transition: filter .1s;
+    transition: color .1s;
 }
 
 .ilustralink:hover span{
-    filter: opacity(0.81);
+    color:rgb(var(--color-base-text));
+    text-decoration: underline;
+    text-underline-offset: 0.3rem;
 }
 
 .autoresdiv{
