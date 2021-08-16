@@ -40,7 +40,8 @@
 
 @media screen and (min-width: 990px) {
   .product:not(.product--no-media) .product__media-wrapper {
-    max-width: 64%;
+    /* max-width: 64%; */
+    max-width: 740px;
     width: calc(64% - 1rem / 2);
   }
 
