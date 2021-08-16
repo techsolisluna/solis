@@ -18,11 +18,11 @@
 }
 
 .author-link .h3{
-    transition: filter 0.1s;
+    color: rgba(var(--color-link), var(--alpha-link));
 }
 
 .author-link:hover .h3{
-    filter: opacity(0.81);
+    color: rgb(var(--color-link));
 }
 
 .picture-author-on-product{
