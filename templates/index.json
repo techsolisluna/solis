@@ -353,6 +353,12 @@
         "color_scheme": "background-1",
         "layout": "image_first"
       }
+    },
+    "1629136827561d3b98": {
+      "type": "apps",
+      "settings": {
+        "include_margins": true
+      }
     }
   },
   "order": [
@@ -364,6 +370,7 @@
     "162813018106f0bc6e",
     "1628130243656cad6b",
     "162812937256217f29",
-    "1628129883dbcebdfc"
+    "1628129883dbcebdfc",
+    "1629136827561d3b98"
   ]
 }
