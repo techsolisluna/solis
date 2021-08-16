@@ -33,11 +33,11 @@
         "button"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Stand_virtual_textura.png",
+        "image": "shopify:\/\/shop_images\/capa_catologo2_a43396c9-1d4b-4086-8192-d16c1de7ab0e.jpg",
         "desktop_text_box_position": "center",
         "color_scheme": "accent-2",
         "stack_images_on_mobile": false,
-        "adapt_height_first_image": true
+        "adapt_height_first_image": false
       }
     },
     "featured_products": {
