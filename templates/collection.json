@@ -58,6 +58,7 @@
     },
     "1629154608d856f11c": {
       "type": "collage",
+      "disabled": true,
       "blocks": {
         "1629154608d856f11c-1": {
           "type": "product",
@@ -81,7 +82,7 @@
           "settings": {
             "collection": "primeira-infancia",
             "image_padding": false,
-            "color_scheme": "background-1"
+            "color_scheme": "accent-1"
           }
         }
       },
