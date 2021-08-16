@@ -1,0 +1,103 @@
+{
+  "sections": {
+    "banner": {
+      "type": "main-collection-banner",
+      "settings": {
+        "show_collection_description": true,
+        "show_collection_image": false
+      }
+    },
+    "1629142222da21ffae": {
+      "type": "image-banner",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Capas_Colecao_2020.jpg",
+        "desktop_text_box_position": "center",
+        "color_scheme": "background-1",
+        "stack_images_on_mobile": true,
+        "adapt_height_first_image": true
+      }
+    },
+    "1629142630d21d95a2": {
+      "type": "rich-text",
+      "blocks": {
+        "1629142630d21d95a2-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Histórias dos Orixás",
+            "heading_size": "h1"
+          }
+        },
+        "1629142630d21d95a2-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "1629142630d21d95a2-0",
+        "1629142630d21d95a2-1"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true
+      }
+    },
+    "product-grid": {
+      "type": "main-collection-product-grid",
+      "settings": {
+        "products_per_page": 20,
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "add_image_padding": false,
+        "show_image_outline": true,
+        "show_vendor": false,
+        "enable_filtering": false,
+        "enable_sorting": false,
+        "author_list": false
+      }
+    },
+    "16291423246a6d2249": {
+      "type": "image-with-text",
+      "blocks": {
+        "16291423246a6d2249-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Edsoleda Santos"
+          }
+        },
+        "16291423246a6d2249-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Natural da cidade de Salvador, Bahia, iniciou sua carreira como artista plástica em 1965. A partir dessa época, desenvolveu as técnicas de bico de pena e aquarela, dando ênfase ao desenho, usando como temas a arquitetura colonial de Salvador e a história em quadrinhos. Mestre em Artes pela Escola de Belas Artes da Universidade Federal da Bahia (UFBA), pesquisou várias técnicas, como pintura em acrílico, objeto e instalação; estudou temas de religião afro-baiana, procurando mostrar sempre a inter-relação arte, candomblé e natureza. <\/p>"
+          }
+        },
+        "16291423246a6d2249-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Saiba mais",
+            "button_link": "shopify:\/\/collections\/edsoleda-santos"
+          }
+        }
+      },
+      "block_order": [
+        "16291423246a6d2249-0",
+        "16291423246a6d2249-1",
+        "16291423246a6d2249-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/edsoleda_1.jpg",
+        "height": "adapt",
+        "color_scheme": "background-1",
+        "layout": "image_first"
+      }
+    }
+  },
+  "order": [
+    "banner",
+    "1629142222da21ffae",
+    "1629142630d21d95a2",
+    "product-grid",
+    "16291423246a6d2249"
+  ]
+}

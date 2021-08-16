@@ -3,7 +3,7 @@
     "banner": {
       "type": "main-collection-banner",
       "settings": {
-        "show_collection_description": false,
+        "show_collection_description": true,
         "show_collection_image": false
       }
     },
@@ -16,54 +16,14 @@
         "add_image_padding": false,
         "show_image_outline": true,
         "show_vendor": false,
-        "enable_filtering": true,
-        "enable_sorting": true,
+        "enable_filtering": false,
+        "enable_sorting": false,
         "author_list": false
-      }
-    },
-    "1629141806d5332e6e": {
-      "type": "image-banner",
-      "blocks": {
-        "1629141806d5332e6e-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "Image banner"
-          }
-        },
-        "1629141806d5332e6e-1": {
-          "type": "text",
-          "settings": {
-            "text": "Give customers details about the banner image(s) or content on the template."
-          }
-        },
-        "1629141806d5332e6e-2": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "Button label",
-            "button_link_1": "",
-            "button_style_secondary_1": false,
-            "button_label_2": "Button label",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "1629141806d5332e6e-0",
-        "1629141806d5332e6e-1",
-        "1629141806d5332e6e-2"
-      ],
-      "settings": {
-        "desktop_text_box_position": "center",
-        "color_scheme": "background-1",
-        "stack_images_on_mobile": true,
-        "adapt_height_first_image": false
       }
     }
   },
   "order": [
     "banner",
-    "product-grid",
-    "1629141806d5332e6e"
+    "product-grid"
   ]
 }
