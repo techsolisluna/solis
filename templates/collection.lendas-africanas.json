@@ -91,6 +91,42 @@
         "color_scheme": "background-1",
         "layout": "image_first"
       }
+    },
+    "16291427108293625e": {
+      "type": "collection-list",
+      "blocks": {
+        "16291427108293625e-0": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "edsoleda-santos"
+          }
+        },
+        "16291427108293625e-1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": ""
+          }
+        },
+        "16291427108293625e-2": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": ""
+          }
+        }
+      },
+      "block_order": [
+        "16291427108293625e-0",
+        "16291427108293625e-1",
+        "16291427108293625e-2"
+      ],
+      "settings": {
+        "title": "Collections",
+        "image_ratio": "square",
+        "color_scheme": "background-1",
+        "swipe_on_mobile": false,
+        "image_padding": false,
+        "show_view_all": false
+      }
     }
   },
   "order": [
@@ -98,6 +134,7 @@
     "1629142222da21ffae",
     "1629142630d21d95a2",
     "product-grid",
-    "16291423246a6d2249"
+    "16291423246a6d2249",
+    "16291427108293625e"
   ]
 }
