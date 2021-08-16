@@ -23,7 +23,7 @@
         "1629142630d21d95a2-0": {
           "type": "heading",
           "settings": {
-            "heading": "Talk about your brand",
+            "heading": "Histórias dos Orixás",
             "heading_size": "h1"
           }
         },
@@ -69,7 +69,7 @@
         "16291423246a6d2249-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
+            "text": "<p>Natural da cidade de Salvador, Bahia, iniciou sua carreira como artista plástica em 1965. A partir dessa época, desenvolveu as técnicas de bico de pena e aquarela, dando ênfase ao desenho, usando como temas a arquitetura colonial de Salvador e a história em quadrinhos. Mestre em Artes pela Escola de Belas Artes da Universidade Federal da Bahia (UFBA), pesquisou várias técnicas, como pintura em acrílico, objeto e instalação; estudou temas de religião afro-baiana, procurando mostrar sempre a inter-relação arte, candomblé e natureza. <\/p>"
           }
         },
         "16291423246a6d2249-2": {
@@ -91,42 +91,6 @@
         "color_scheme": "background-1",
         "layout": "image_first"
       }
-    },
-    "16291427108293625e": {
-      "type": "collection-list",
-      "blocks": {
-        "16291427108293625e-0": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "edsoleda-santos"
-          }
-        },
-        "16291427108293625e-1": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": ""
-          }
-        },
-        "16291427108293625e-2": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": ""
-          }
-        }
-      },
-      "block_order": [
-        "16291427108293625e-0",
-        "16291427108293625e-1",
-        "16291427108293625e-2"
-      ],
-      "settings": {
-        "title": "Collections",
-        "image_ratio": "square",
-        "color_scheme": "background-1",
-        "swipe_on_mobile": false,
-        "image_padding": false,
-        "show_view_all": false
-      }
     }
   },
   "order": [
@@ -134,7 +98,6 @@
     "1629142222da21ffae",
     "1629142630d21d95a2",
     "product-grid",
-    "16291423246a6d2249",
-    "16291427108293625e"
+    "16291423246a6d2249"
   ]
 }
