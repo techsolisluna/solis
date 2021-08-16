@@ -5,6 +5,13 @@
     }
 }
 
+@media screen and (min-width: 750px) {
+    .padding1{
+        padding: 5rem 2rem;
+        margin-top: 3rem;
+    }
+}
+
 .author-link{
     text-decoration: none;
 }
