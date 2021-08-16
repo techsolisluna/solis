@@ -4,13 +4,13 @@
       "type": "main-collection-banner",
       "settings": {
         "show_collection_description": true,
-        "show_collection_image": false
+        "show_collection_image": true
       }
     },
     "product-grid": {
       "type": "main-collection-product-grid",
       "settings": {
-        "products_per_page": 20,
+        "products_per_page": 12,
         "image_ratio": "adapt",
         "show_secondary_image": false,
         "add_image_padding": false,
@@ -20,10 +20,87 @@
         "enable_sorting": false,
         "author_list": false
       }
+    },
+    "162915451236fb2f56": {
+      "type": "image-with-text",
+      "blocks": {
+        "162915451236fb2f56-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image with text"
+          }
+        },
+        "162915451236fb2f56-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
+          }
+        },
+        "162915451236fb2f56-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "162915451236fb2f56-0",
+        "162915451236fb2f56-1",
+        "162915451236fb2f56-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/IMG_7772.jpg",
+        "height": "adapt",
+        "color_scheme": "background-1",
+        "layout": "image_first"
+      }
+    },
+    "1629154608d856f11c": {
+      "type": "collage",
+      "blocks": {
+        "1629154608d856f11c-1": {
+          "type": "product",
+          "settings": {
+            "product": "martim-barulim-os-sons-do-bebe",
+            "secondary_background": false,
+            "second_image": false,
+            "image_padding": false
+          }
+        },
+        "1629154608d856f11c-0": {
+          "type": "video",
+          "settings": {
+            "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+            "description": "Describe the video for customers using screen readers",
+            "image_padding": false
+          }
+        },
+        "1629154608d856f11c-2": {
+          "type": "collection",
+          "settings": {
+            "collection": "primeira-infancia",
+            "image_padding": false,
+            "color_scheme": "background-1"
+          }
+        }
+      },
+      "block_order": [
+        "1629154608d856f11c-1",
+        "1629154608d856f11c-0",
+        "1629154608d856f11c-2"
+      ],
+      "settings": {
+        "heading": "Lancamento",
+        "desktop_layout": "left",
+        "mobile_layout": "collage"
+      }
     }
   },
   "order": [
     "banner",
-    "product-grid"
+    "product-grid",
+    "162915451236fb2f56",
+    "1629154608d856f11c"
   ]
 }
