@@ -2,24 +2,21 @@
   "sections": {
     "image_banner": {
       "type": "image-banner",
-      "disabled": true,
       "blocks": {
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "Edições incríveis"
+            "heading": "Edições e design"
           }
         },
         "289448ac-fc69-4fb2-8956-da26c78d51f7": {
           "type": "text",
-          "disabled": true,
           "settings": {
             "text": "Boas-vindas ao nosso site! Fique à vontade para explorar :)"
           }
         },
         "button": {
           "type": "buttons",
-          "disabled": true,
           "settings": {
             "button_label_1": "Ver produtos",
             "button_link_1": "shopify:\/\/collections\/all",
@@ -37,9 +34,8 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Stand_virtual_textura.png",
-        "image_2": "shopify:\/\/shop_images\/Stand_virtual_textura.png",
         "desktop_text_box_position": "center",
-        "color_scheme": "background-1",
+        "color_scheme": "accent-2",
         "stack_images_on_mobile": false,
         "adapt_height_first_image": true
       }
@@ -142,14 +138,12 @@
         },
         "313d1846-3e5c-466a-8fb9-7ca8677a46e1": {
           "type": "featured_collection",
-          "disabled": true,
           "settings": {
             "collection": "educacao"
           }
         },
         "162813019149727a3d-0": {
           "type": "featured_collection",
-          "disabled": true,
           "settings": {
             "collection": "arte"
           }
@@ -205,7 +199,6 @@
     },
     "16281298397ca9bc38": {
       "type": "newsletter",
-      "disabled": true,
       "blocks": {
         "2443f798-83e5-48a7-93f6-e36838d4c88d": {
           "type": "heading",
@@ -273,23 +266,21 @@
     },
     "1628130243656cad6b": {
       "type": "collage",
-      "disabled": true,
       "blocks": {
+        "1628130243656cad6b-0": {
+          "type": "video",
+          "settings": {
+            "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+            "description": "Describe the video for customers using screen readers",
+            "image_padding": false
+          }
+        },
         "09ba42be-c426-44ae-8c3c-44001201f72e": {
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/Banner_Migrantes_1.png",
             "image_padding": false,
             "color_scheme": "background-1"
-          }
-        },
-        "1628130243656cad6b-0": {
-          "type": "video",
-          "disabled": true,
-          "settings": {
-            "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
-            "description": "Describe the video for customers using screen readers",
-            "image_padding": false
           }
         },
         "1628130243656cad6b-2": {
@@ -302,8 +293,8 @@
         }
       },
       "block_order": [
-        "09ba42be-c426-44ae-8c3c-44001201f72e",
         "1628130243656cad6b-0",
+        "09ba42be-c426-44ae-8c3c-44001201f72e",
         "1628130243656cad6b-2"
       ],
       "settings": {

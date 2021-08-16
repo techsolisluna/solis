@@ -5,6 +5,7 @@
       "blocks": {
         "1036ce00-b38d-4124-8b98-b86c99667a9b": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "ISBN {{ product.metafields.facts.isbn.value }}",
             "text_style": "uppercase"
@@ -55,6 +56,7 @@
         },
         "buy_buttons": {
           "type": "buy_buttons",
+          "disabled": true,
           "settings": {
             "show_dynamic_checkout": false
           }
