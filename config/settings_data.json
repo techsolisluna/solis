@@ -13,6 +13,7 @@
         "blocks": {
           "announcement-bar-0": {
             "type": "announcement",
+            "disabled": true,
             "settings": {
               "text": "Boas-vindas ao novo site da Solisluna!",
               "color_scheme": "accent-2",
