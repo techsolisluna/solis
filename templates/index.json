@@ -11,6 +11,7 @@
         },
         "289448ac-fc69-4fb2-8956-da26c78d51f7": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "Boas-vindas ao nosso site! Fique à vontade para explorar :)"
           }
