@@ -101,14 +101,8 @@
         "enable_video_looping": false
       }
     },
-    "author-product": {
-      "type": "author-product",
-      "settings": {
-      }
-    },
     "162834945734186509": {
       "type": "collage",
-      "disabled": true,
       "blocks": {
         "162834945734186509-0": {
           "type": "video",
@@ -147,6 +141,11 @@
         "mobile_layout": "collage"
       }
     },
+    "author-product": {
+      "type": "author-product",
+      "settings": {
+      }
+    },
     "product-recommendations": {
       "type": "product-recommendations",
       "settings": {
@@ -174,8 +173,8 @@
   },
   "order": [
     "main",
-    "author-product",
     "162834945734186509",
+    "author-product",
     "product-recommendations",
     "1628349501523ef837"
   ]

@@ -16,6 +16,7 @@
         "add_image_padding": false,
         "show_image_outline": true,
         "show_vendor": false,
+        "show_price": true,
         "enable_filtering": false,
         "enable_sorting": false,
         "author_list": false
