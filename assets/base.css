@@ -921,8 +921,8 @@ summary::-webkit-details-marker {
 }
 
 @media screen and (min-width: 990px) {
-  .grid--5-col-desktop .grid__item {
-    width: calc(20% - 1rem * 4 / 5);
+  .collection-list--5-items .grid__item {
+    width: calc(20% - 1rem * 4 / 5) !important;
   }
 
   .grid--4-col-desktop .grid__item {
