@@ -154,6 +154,52 @@
         "layout": "image_first"
       }
     },
+    "1629467736aa9a7119": {
+      "type": "image-banner",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/xango_02_tira_screen.jpg",
+        "desktop_text_box_position": "center",
+        "color_scheme": "background-1",
+        "stack_images_on_mobile": false,
+        "adapt_height_first_image": true
+      }
+    },
+    "16294686513afba5fd": {
+      "type": "rich-text",
+      "blocks": {
+        "16294686513afba5fd-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Qual história você vai levar?",
+            "heading_size": "h1"
+          }
+        },
+        "16294686513afba5fd-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+          }
+        },
+        "16294686513afba5fd-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "16294686513afba5fd-0",
+        "16294686513afba5fd-1",
+        "16294686513afba5fd-2"
+      ],
+      "settings": {
+        "color_scheme": "accent-1",
+        "full_width": true
+      }
+    },
     "1629467138dda8f6be": {
       "type": "multicolumn",
       "blocks": {
@@ -170,7 +216,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/borboletas03-002_pq.png",
             "title": "KIT 3 HISTÓRIAS",
-            "text": "<p>Adquira três livros da coleção<br\/>Lendas Africanas dos Orixás<\/p>"
+            "text": "<p>Adquira três livros da coleção<br\/>Lendas Africanas dos Orixás.<\/p><p><\/p><p>De R$149,70 por R$134,70<\/p>"
           }
         },
         "1629467138dda8f6be-2": {
@@ -188,7 +234,7 @@
         "1629467138dda8f6be-2"
       ],
       "settings": {
-        "title": "Escolha a melhor opção para você:",
+        "title": "",
         "image_width": "full",
         "image_ratio": "adapt",
         "column_alignment": "center",
@@ -196,16 +242,6 @@
         "button_label": "",
         "button_link": "",
         "swipe_on_mobile": false
-      }
-    },
-    "1629467736aa9a7119": {
-      "type": "image-banner",
-      "settings": {
-        "image": "shopify:\/\/shop_images\/xango_02_tira_screen.jpg",
-        "desktop_text_box_position": "center",
-        "color_scheme": "background-1",
-        "stack_images_on_mobile": false,
-        "adapt_height_first_image": true
       }
     },
     "162942410584609b55": {
@@ -300,8 +336,9 @@
     "product-grid",
     "16294673732ef79103",
     "16291423246a6d2249",
-    "1629467138dda8f6be",
     "1629467736aa9a7119",
+    "16294686513afba5fd",
+    "1629467138dda8f6be",
     "162942410584609b55",
     "162946737651c9a855"
   ]
