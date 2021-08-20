@@ -4,7 +4,42 @@
       "type": "main-collection-banner",
       "settings": {
         "show_collection_description": true,
-        "show_collection_image": true
+        "show_collection_image": false
+      }
+    },
+    "16294240224b5b17e0": {
+      "type": "image-with-text",
+      "blocks": {
+        "16294240224b5b17e0-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image with text"
+          }
+        },
+        "16294240224b5b17e0-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
+          }
+        },
+        "16294240224b5b17e0-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "16294240224b5b17e0-0",
+        "16294240224b5b17e0-1",
+        "16294240224b5b17e0-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/edsoelda_5-001_51dc3abe-3d75-457b-93a2-bac530650c31.png",
+        "height": "adapt",
+        "color_scheme": "background-1",
+        "layout": "image_first"
       }
     },
     "1629142222da21ffae": {
@@ -13,7 +48,7 @@
         "image": "shopify:\/\/shop_images\/Capas_Colecao_2020.jpg",
         "desktop_text_box_position": "center",
         "color_scheme": "background-1",
-        "stack_images_on_mobile": true,
+        "stack_images_on_mobile": false,
         "adapt_height_first_image": true
       }
     },
@@ -93,55 +128,61 @@
         "layout": "image_first"
       }
     },
-    "1629147357c0bda0cd": {
+    "162942410584609b55": {
       "type": "image-banner",
       "blocks": {
-        "1629147357c0bda0cd-0": {
+        "162942410584609b55-0": {
           "type": "heading",
-          "disabled": true,
           "settings": {
             "heading": "Image banner"
           }
         },
-        "1629147357c0bda0cd-1": {
+        "162942410584609b55-1": {
           "type": "text",
-          "disabled": true,
           "settings": {
             "text": "Give customers details about the banner image(s) or content on the template."
           }
         },
-        "1629147357c0bda0cd-2": {
+        "162942410584609b55-2": {
           "type": "buttons",
-          "disabled": true,
           "settings": {
             "button_label_1": "Button label",
             "button_link_1": "",
-            "button_style_secondary_1": false,
+            "button_style_secondary_1": true,
             "button_label_2": "Button label",
             "button_link_2": "",
-            "button_style_secondary_2": false
+            "button_style_secondary_2": true
           }
         }
       },
       "block_order": [
-        "1629147357c0bda0cd-0",
-        "1629147357c0bda0cd-1",
-        "1629147357c0bda0cd-2"
+        "162942410584609b55-0",
+        "162942410584609b55-1",
+        "162942410584609b55-2"
       ],
       "settings": {
+        "image": "shopify:\/\/shop_images\/verniz-oxalufa.png",
         "desktop_text_box_position": "center",
         "color_scheme": "background-1",
-        "stack_images_on_mobile": true,
-        "adapt_height_first_image": false
+        "stack_images_on_mobile": false,
+        "adapt_height_first_image": true
+      }
+    },
+    "162946598378db8525": {
+      "type": "apps",
+      "settings": {
+        "include_margins": true
       }
     }
   },
   "order": [
     "banner",
+    "16294240224b5b17e0",
     "1629142222da21ffae",
     "1629142630d21d95a2",
     "product-grid",
     "16291423246a6d2249",
-    "1629147357c0bda0cd"
+    "162942410584609b55",
+    "162946598378db8525"
   ]
 }
