@@ -90,7 +90,33 @@
         "show_price": false,
         "enable_filtering": false,
         "enable_sorting": false,
-        "author_list": false
+        "author_list": true
+      }
+    },
+    "16294673732ef79103": {
+      "type": "rich-text",
+      "blocks": {
+        "5c2d1d88-20e1-427d-8aa4-9cc308bfa6cf": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+          }
+        },
+        "16294673732ef79103-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Artista & autora",
+            "heading_size": "h0"
+          }
+        }
+      },
+      "block_order": [
+        "5c2d1d88-20e1-427d-8aa4-9cc308bfa6cf",
+        "16294673732ef79103-0"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true
       }
     },
     "16291423246a6d2249": {
@@ -126,6 +152,60 @@
         "height": "adapt",
         "color_scheme": "background-1",
         "layout": "image_first"
+      }
+    },
+    "1629467138dda8f6be": {
+      "type": "multicolumn",
+      "blocks": {
+        "1629467138dda8f6be-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/borboletas02-001.png",
+            "title": "Individual",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
+          }
+        },
+        "1629467138dda8f6be-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/borboletas03-002_pq.png",
+            "title": "KIT 3 HISTÓRIAS",
+            "text": "<p>Adquira três livros da coleção<br\/>Lendas Africanas dos Orixás<\/p>"
+          }
+        },
+        "1629467138dda8f6be-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/borboletas03-001_pq.png",
+            "title": "COLEÇÃO COMPLETA",
+            "text": "<p>Adquira todos os livros da coleção<br\/> Lendas Africanas dos Orixás.<br\/><br\/>De R$499 por R$397<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "1629467138dda8f6be-0",
+        "1629467138dda8f6be-1",
+        "1629467138dda8f6be-2"
+      ],
+      "settings": {
+        "title": "Escolha a melhor opção para você:",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "column_alignment": "center",
+        "background_style": "secondary",
+        "button_label": "",
+        "button_link": "",
+        "swipe_on_mobile": false
+      }
+    },
+    "1629467736aa9a7119": {
+      "type": "image-banner",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/xango_02_tira_screen.jpg",
+        "desktop_text_box_position": "center",
+        "color_scheme": "background-1",
+        "stack_images_on_mobile": false,
+        "adapt_height_first_image": true
       }
     },
     "162942410584609b55": {
@@ -167,6 +247,49 @@
         "stack_images_on_mobile": false,
         "adapt_height_first_image": true
       }
+    },
+    "162946737651c9a855": {
+      "type": "image-banner",
+      "blocks": {
+        "162946737651c9a855-0": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "Image banner"
+          }
+        },
+        "162946737651c9a855-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template."
+          }
+        },
+        "162946737651c9a855-2": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "162946737651c9a855-0",
+        "162946737651c9a855-1",
+        "162946737651c9a855-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Oxumare_20_faixa_screen.jpg",
+        "desktop_text_box_position": "center",
+        "color_scheme": "background-1",
+        "stack_images_on_mobile": true,
+        "adapt_height_first_image": true
+      }
     }
   },
   "order": [
@@ -175,7 +298,11 @@
     "1629142222da21ffae",
     "1629142630d21d95a2",
     "product-grid",
+    "16294673732ef79103",
     "16291423246a6d2249",
-    "162942410584609b55"
+    "1629467138dda8f6be",
+    "1629467736aa9a7119",
+    "162942410584609b55",
+    "162946737651c9a855"
   ]
 }
