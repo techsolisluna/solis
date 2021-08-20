@@ -167,12 +167,6 @@
         "stack_images_on_mobile": false,
         "adapt_height_first_image": true
       }
-    },
-    "162946598378db8525": {
-      "type": "apps",
-      "settings": {
-        "include_margins": true
-      }
     }
   },
   "order": [
@@ -182,7 +176,6 @@
     "1629142630d21d95a2",
     "product-grid",
     "16291423246a6d2249",
-    "162942410584609b55",
-    "162946598378db8525"
+    "162942410584609b55"
   ]
 }
