@@ -99,13 +99,13 @@
         "5c2d1d88-20e1-427d-8aa4-9cc308bfa6cf": {
           "type": "text",
           "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+            "text": "<p>Share information about your brand with your customers. Share information about your brand with your customers.Share information about your brand with your customers.<\/p>"
           }
         },
         "16294673732ef79103-0": {
           "type": "heading",
           "settings": {
-            "heading": "Artista & autora",
+            "heading": "artista & autora",
             "heading_size": "h0"
           }
         }
@@ -207,7 +207,7 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/borboletas02-001.png",
-            "title": "Individual",
+            "title": "UMA HISTÓRIA",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
           }
         },
@@ -215,7 +215,7 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/borboletas03-002_pq.png",
-            "title": "KIT 3 HISTÓRIAS",
+            "title": "KIT TRÊS HISTÓRIAS",
             "text": "<p>Adquira três livros da coleção<br\/>Lendas Africanas dos Orixás.<\/p><p><\/p><p>De R$149,70 por R$134,70<\/p>"
           }
         },
