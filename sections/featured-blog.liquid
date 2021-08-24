@@ -37,6 +37,7 @@
             <li class="blog__post grid__item article slider__slide slider__slide--full-width">
               {% render 'article-card', blog: section.settings.blog, article: article, show_image: section.settings.show_image, show_date: section.settings.show_date, show_author: section.settings.show_author %}
             </li>
+            <p>{% article.tags %}</p>
           {%- endfor -%}
         </ul>
         {%- if posts_exceed_limit -%}
