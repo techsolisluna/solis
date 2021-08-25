@@ -33,20 +33,42 @@
           class="blog__posts articles-wrapper grid grid--peek grid--2-col-tablet grid--3-col-desktop slider slider--tablet{% if posts_exceed_limit %} blog__posts--{{ section.settings.post_limit }}-items{% else %} blog__posts--{{ section.settings.blog.articles_count }}-items{% endif %}"
           role="list"
         >
-          {% assign prodtitle = product.title | downcase %}
-          {% assign postcount = 0 %}
-          {%- for article in section.settings.blog.articles -%}
-            {%- if postcount <= 2 -%}
-              {%- for tag in article.tags -%}
-                {%- if tag == prodtitle -%}
-                  <li class="blog__post grid__item article slider__slide slider__slide--full-width">
-                    {% render 'article-card', blog: section.settings.blog, article: article, show_image: section.settings.show_image, show_date: section.settings.show_date, show_author: section.settings.show_author, show_related: section.settings.show_related %}
-                  </li>
-                  {% assign postcount = postcount | plus: 1 %}
-                {%- endif -%}
+          {%- if section.settings.show_related -%}
+            {% assign prodtitle = product.title | downcase %}
+            {% assign postcount = 0 %}
+            {%- for article in section.settings.blog.articles -%}
+              {%- if postcount < section.settings.post_limit -%}
+                {%- for tag in article.tags -%}
+                  {%- if tag == prodtitle -%}
+                    <li class="blog__post grid__item article slider__slide slider__slide--full-width">
+                      {% render 'article-card', blog: section.settings.blog, article: article, show_image: section.settings.show_image, show_date: section.settings.show_date, show_author: section.settings.show_author, show_related: section.settings.show_related %}
+                    </li>
+                    {% assign postcount = postcount | plus: 1 %}
+                  {%- endif -%}
+                {%- endfor -%}
+              {%- endif -%}
+            {%- endfor -%}
+            {%- if postcount == 0 -%}
+              {%- for article in section.settings.blog.articles limit: section.settings.post_limit -%} 
+                <li class="blog__post grid__item article slider__slide slider__slide--full-width">
+                  {% render 'article-card', blog: section.settings.blog, article: article, show_image: section.settings.show_image, show_date: section.settings.show_date, show_author: section.settings.show_author, show_related: section.settings.show_related %}
+                </li>
+              {%- endfor -%}
+            {%- elsif postcount < section.settings.post_limit -%}
+              {% assign postrest = section.settings.post_limit | minus: postcount %}
+              {%- for article in section.settings.blog.articles limit: postrest -%} 
+                <li class="blog__post grid__item article slider__slide slider__slide--full-width">
+                  {% render 'article-card', blog: section.settings.blog, article: article, show_image: section.settings.show_image, show_date: section.settings.show_date, show_author: section.settings.show_author, show_related: section.settings.show_related %}
+                </li>
               {%- endfor -%}
             {%- endif -%}
-          {%- endfor -%}
+          {%- else -%}
+            {%- for article in section.settings.blog.articles limit: section.settings.post_limit -%} 
+              <li class="blog__post grid__item article slider__slide slider__slide--full-width">
+                {% render 'article-card', blog: section.settings.blog, article: article, show_image: section.settings.show_image, show_date: section.settings.show_date, show_author: section.settings.show_author, show_related: section.settings.show_related %}
+              </li>
+            {%- endfor -%}
+          {%- endif -%}
         </ul>
         {%- if posts_exceed_limit -%}
           <div class="slider-buttons no-js-hidden{% if section.settings.post_limit < 3 %} medium-hide{% endif %}{% if section.settings.post_limit < 2 %} small-hide{% endif %}">
