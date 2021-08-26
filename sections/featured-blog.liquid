@@ -65,23 +65,25 @@
               {% assign postrest = section.settings.post_limit | minus: postcount %}
 
               {%- if postcount == 1 -%}
-                {%- for article in section.settings.blog.articles limit: postrest -%} 
-                  {%- if article.title != firsttitle -%}
-                    <li class="blog__post grid__item article slider__slide slider__slide--full-width">
-                      {% render 'article-card', blog: section.settings.blog, article: article, show_image: section.settings.show_image, show_date: section.settings.show_date, show_author: section.settings.show_author, show_related: section.settings.show_related %}
-                    </li>
-                  {%- else -%}
-                    {% assign postrest = postrest | plus: 1 %}
+                {%- for article in section.settings.blog.articles -%} 
+                  {%- if postrest > 0 -%}
+                    {%- if article.title != firsttitle -%}
+                      <li class="blog__post grid__item article slider__slide slider__slide--full-width">
+                        {% render 'article-card', blog: section.settings.blog, article: article, show_image: section.settings.show_image, show_date: section.settings.show_date, show_author: section.settings.show_author, show_related: section.settings.show_related %}
+                      </li>
+                      {% assign postrest = postrest | minus: 1 %}
+                    {%- endif -%}
                   {%- endif -%}
                 {%- endfor -%}
               {%- elsif postcount == 2 -%}
-                {%- for article in section.settings.blog.articles limit: postrest -%} 
-                  {%- if article.title != firsttitle and secondtitle -%}
-                    <li class="blog__post grid__item article slider__slide slider__slide--full-width">
-                      {% render 'article-card', blog: section.settings.blog, article: article, show_image: section.settings.show_image, show_date: section.settings.show_date, show_author: section.settings.show_author, show_related: section.settings.show_related %}
-                    </li>
-                  {%- else -%}
-                    {% assign postrest = postrest | plus: 1 %}
+                {%- for article in section.settings.blog.articles -%} 
+                  {%- if postrest > 0 -%} 
+                    {%- if article.title != firsttitle and secondtitle -%}
+                      <li class="blog__post grid__item article slider__slide slider__slide--full-width">
+                        {% render 'article-card', blog: section.settings.blog, article: article, show_image: section.settings.show_image, show_date: section.settings.show_date, show_author: section.settings.show_author, show_related: section.settings.show_related %}
+                      </li>
+                      {% assign postrest = postrest | minus: 1 %}
+                    {%- endif -%}
                   {%- endif -%}
                 {%- endfor -%}
               {%- endif -%}
