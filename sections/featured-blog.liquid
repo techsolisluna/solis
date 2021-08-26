@@ -44,6 +44,13 @@
                       {% render 'article-card', blog: section.settings.blog, article: article, show_image: section.settings.show_image, show_date: section.settings.show_date, show_author: section.settings.show_author, show_related: section.settings.show_related %}
                     </li>
                     {% assign postcount = postcount | plus: 1 %}
+
+                    {%- if postcount == 1 -%}
+                      {% assign firsttitle = article.title %}
+                    {%- elsif postcount == 2 -%}
+                      {% assign secondtitle = article.title %}
+                    {%- endif -%}
+
                   {%- endif -%}
                 {%- endfor -%}
               {%- endif -%}
@@ -56,11 +63,29 @@
               {%- endfor -%}
             {%- elsif postcount < section.settings.post_limit -%}
               {% assign postrest = section.settings.post_limit | minus: postcount %}
-              {%- for article in section.settings.blog.articles limit: postrest -%} 
-                <li class="blog__post grid__item article slider__slide slider__slide--full-width">
-                  {% render 'article-card', blog: section.settings.blog, article: article, show_image: section.settings.show_image, show_date: section.settings.show_date, show_author: section.settings.show_author, show_related: section.settings.show_related %}
-                </li>
-              {%- endfor -%}
+
+              {%- if postcount == 1 -%}
+                {%- for article in section.settings.blog.articles limit: postrest -%} 
+                  {%- if article.title != firsttitle -%}
+                    <li class="blog__post grid__item article slider__slide slider__slide--full-width">
+                      {% render 'article-card', blog: section.settings.blog, article: article, show_image: section.settings.show_image, show_date: section.settings.show_date, show_author: section.settings.show_author, show_related: section.settings.show_related %}
+                    </li>
+                  {%- else -%}
+                    {% assign postrest = postrest | plus: 1 %}
+                  {%- endif -%}
+                {%- endfor -%}
+              {%- elsif postcount == 2 -%}
+                {%- for article in section.settings.blog.articles limit: postrest -%} 
+                  {%- if article.title != firsttitle and secondtitle -%}
+                    <li class="blog__post grid__item article slider__slide slider__slide--full-width">
+                      {% render 'article-card', blog: section.settings.blog, article: article, show_image: section.settings.show_image, show_date: section.settings.show_date, show_author: section.settings.show_author, show_related: section.settings.show_related %}
+                    </li>
+                  {%- else -%}
+                    {% assign postrest = postrest | plus: 1 %}
+                  {%- endif -%}
+                {%- endfor -%}
+              {%- endif -%}
+
             {%- endif -%}
           {%- else -%}
             {%- for article in section.settings.blog.articles limit: section.settings.post_limit -%} 
