@@ -45,7 +45,6 @@
   }
 </style>
 
-{%- comment -%}
 <div class="template-search spaced-section{% unless search.performed and search.results.size > 0 %} template-search--empty{% endunless %}">
   <div class="page-width center">
     {%- if search.performed -%}
@@ -162,7 +161,6 @@
     {% endpaginate %}
   {%- endif -%}
 </div>
-{%- endcomment -%}
 
 <script src="{{ 'predictive-search.js' | asset_url }}" defer="defer"></script>
 
