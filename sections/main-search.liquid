@@ -5,8 +5,6 @@
 <link rel="stylesheet" href="{{ 'component-badge.css' | asset_url }}" media="print" onload="this.media='all'">
 <link rel="stylesheet" href="{{ 'component-search.css' | asset_url }}" media="print" onload="this.media='all'">
 
-<script src="{{ 'predictive-search.js' | asset_url }}" defer="defer"></script>
-
 <noscript>{{ 'component-badge.css' | asset_url | stylesheet_tag }}</noscript>
 <noscript>{{ 'component-search.css' | asset_url | stylesheet_tag }}</noscript>
 
@@ -192,6 +190,8 @@
     {%- endif -%}
   </form>
 </predictive-search>
+
+<script src="{{ 'predictive-search.js' | asset_url }}" defer="defer"></script>
 
 {% schema %}
 {
