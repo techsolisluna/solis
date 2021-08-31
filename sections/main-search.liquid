@@ -162,6 +162,37 @@
   {%- endif -%}
 </div>
 
+<script src="{{ 'predictive-search.js' | asset_url }}" defer="defer"></script>
+
+<predictive-search>
+  <form action="{{ routes.search_url }}" method="get" role="search">
+    <label for="Search">Search</label>
+    <input
+      id="Search"
+      type="search"
+      name="q"
+      value="{{ search.terms | escape }}"
+      {%- if settings.predictive_search_enabled -%}
+        role="combobox"
+        aria-expanded="false"
+        aria-owns="predictive-search-results-list"
+        aria-controls="predictive-search-results-list"
+        aria-haspopup="listbox"
+        aria-autocomplete="list"
+        autocorrect="off"
+        autocomplete="off"
+        autocapitalize="off"
+        spellcheck="false"
+      {%- endif -%}
+    >
+    <input name="options[prefix]" type="hidden" value="last">
+
+    {%- if settings.predictive_search_enabled -%}
+      <div id="predictive-search" tabindex="-1"></div>
+    {%- endif -%}
+  </form>
+</predictive-search>
+
 {% schema %}
 {
   "name": "t:sections.main-search.name",
@@ -215,6 +246,12 @@
       "id": "show_vendor",
       "default": false,
       "label": "t:sections.main-search.settings.show_vendor.label"
+    },
+    {
+      "type": "checkbox",
+      "id": "predictive_search_enabled",
+      "default": true,
+      "label": "Predictive Search"
     },
     {
       "type": "header",
