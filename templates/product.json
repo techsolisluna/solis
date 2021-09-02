@@ -108,7 +108,7 @@
           "type": "video",
           "settings": {
             "video_url": "",
-            "description": "Describe the video for customers using screen readers",
+            "description": "Describ{{ product.title }}e the video for customers using screen readers",
             "image_padding": false
           }
         },
