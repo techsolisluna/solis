@@ -161,7 +161,8 @@
     {% endpaginate %}
   {%- endif -%}
 </div>
-
+  
+{% comment %}
 <script src="{{ 'predictive-search.js' | asset_url }}" defer="defer"></script>
 
 <predictive-search>
@@ -192,6 +193,7 @@
     {%- endif -%}
   </form>
 </predictive-search>
+{% endcomment %}
 
 {% schema %}
 {
